@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "73CBD948E6AE26DCB537E389E5D77011AAE469C2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "73CBD948E6AE26DCB537E389E5D77011AAE469C2" : 9223372036854775807,
+    "A9BBE7B7DEEAAD213C663050C2FD9CE68084B2AD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AADAB6BD-0C23-47F8-B83F-E54271BCA859",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "73CBD948E6AE26DCB537E389E5D77011AAE469C2" : "AssetFlow\/",
+    "A9BBE7B7DEEAAD213C663050C2FD9CE68084B2AD" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AssetFlow",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AssetFlow.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Camvergence\/AssetFlow.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "73CBD948E6AE26DCB537E389E5D77011AAE469C2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/mklosterman\/camvergence.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A9BBE7B7DEEAAD213C663050C2FD9CE68084B2AD"
+    }
+  ]
+}
