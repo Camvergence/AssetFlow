@@ -1,5 +1,5 @@
 //
-//  FujiXPro2.swift
+//  FujiXA2.swift
 //  AssetFlow
 //
 //  Created by Matt Klosterman on 10/9/16.
@@ -9,11 +9,11 @@
 import Foundation
 
 extension Cameras.Manufacturers.Fuji {
-    public struct XPro2 : CameraModel {
+    public struct XA2 : CameraModel {
         public init() {}
-        public let name = "Fuji X-Pro2"
+        public let name = "Fuji X-A2"
         public let manufacturerType: CameraManufacturer.Type = Cameras.Manufacturers.Fuji.self
     }
 }
 
-public typealias FujiXPro2 = Cameras.Manufacturers.Fuji.XPro2
+public typealias FujiXA2 = Cameras.Manufacturers.Fuji.XA2

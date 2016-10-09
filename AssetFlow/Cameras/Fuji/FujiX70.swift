@@ -9,11 +9,11 @@
 import Foundation
 
 extension Cameras.Manufacturers.Fuji {
-    public struct FujiX70 : CameraModel {
+    public struct X70 : CameraModel {
         public init() {}
         public let name = "Fuji X70"
         public let manufacturerType: CameraManufacturer.Type = Cameras.Manufacturers.Fuji.self
     }
 }
 
-public typealias FujiX70 = Cameras.Manufacturers.Fuji.FujiX70
+public typealias FujiX70 = Cameras.Manufacturers.Fuji.X70

@@ -1,5 +1,5 @@
 //
-//  SonyA7.swift
+//  SonyA7II.swift
 //  AssetFlow
 //
 //  Created by Matt Klosterman on 10/9/16.
@@ -9,11 +9,11 @@
 import Foundation
 
 extension Cameras.Manufacturers.Sony {
-    public struct A7 : CameraModel {
+    public struct A7II : CameraModel {
         public init() {}
-        public let name = "Sony a7"
+        public let name = "Sony a7 II"
         public let manufacturerType: CameraManufacturer.Type = Cameras.Manufacturers.Sony.self
     }
 }
 
-public typealias SonyA7 = Cameras.Manufacturers.Sony.A7
+public typealias SonyA7II = Cameras.Manufacturers.Sony.A7II

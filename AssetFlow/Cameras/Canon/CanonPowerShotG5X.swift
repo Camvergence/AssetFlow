@@ -1,5 +1,5 @@
 //
-//  Canon6D.swift
+//  CanonPowerShotG5X.swift
 //  AssetFlow
 //
 //  Created by Matt Klosterman on 10/9/16.
@@ -9,11 +9,11 @@
 import Foundation
 
 extension Cameras.Manufacturers.Canon {
-    public struct EOS6D : CameraModel {
+    public struct PowerShotG5X : CameraModel {
         public init() {}
-        public let name = "Canon 6D"
+        public let name = "Canon PowerShot G5X"
         public let manufacturerType: CameraManufacturer.Type = Cameras.Manufacturers.Canon.self
     }
 }
 
-public typealias Canon6D = Cameras.Manufacturers.Canon.EOS6D
+public typealias CanonPowerShotG5X = Cameras.Manufacturers.Canon.PowerShotG5X
