@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A714D2721DAA9F3C00F73A61 /* Cameras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D2691DAA9F3C00F73A61 /* Cameras.swift */; };
+		A714D2731DAA9F3C00F73A61 /* Canon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D26B1DAA9F3C00F73A61 /* Canon.swift */; };
+		A714D2741DAA9F3C00F73A61 /* Fuji.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D26D1DAA9F3C00F73A61 /* Fuji.swift */; };
+		A714D2751DAA9F3C00F73A61 /* Panasonic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D26F1DAA9F3C00F73A61 /* Panasonic.swift */; };
+		A714D2761DAA9F3C00F73A61 /* Sony.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D2711DAA9F3C00F73A61 /* Sony.swift */; };
 		A74F97231DA4141100969A56 /* AssetFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74F97191DA4141100969A56 /* AssetFlow.framework */; };
 		A74F97281DA4141100969A56 /* AssetFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F97271DA4141100969A56 /* AssetFlowTests.swift */; };
 		A74F972A1DA4141100969A56 /* AssetFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = A74F971C1DA4141100969A56 /* AssetFlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A714D2691DAA9F3C00F73A61 /* Cameras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cameras.swift; sourceTree = "<group>"; };
+		A714D26B1DAA9F3C00F73A61 /* Canon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canon.swift; sourceTree = "<group>"; };
+		A714D26D1DAA9F3C00F73A61 /* Fuji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fuji.swift; sourceTree = "<group>"; };
+		A714D26F1DAA9F3C00F73A61 /* Panasonic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Panasonic.swift; sourceTree = "<group>"; };
+		A714D2711DAA9F3C00F73A61 /* Sony.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sony.swift; sourceTree = "<group>"; };
 		A74F97191DA4141100969A56 /* AssetFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AssetFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74F971C1DA4141100969A56 /* AssetFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetFlow.h; sourceTree = "<group>"; };
 		A74F971D1DA4141100969A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +79,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A714D2681DAA9F3C00F73A61 /* Cameras */ = {
+			isa = PBXGroup;
+			children = (
+				A714D2691DAA9F3C00F73A61 /* Cameras.swift */,
+				A714D26A1DAA9F3C00F73A61 /* Canon */,
+				A714D26C1DAA9F3C00F73A61 /* Fuji */,
+				A714D26E1DAA9F3C00F73A61 /* Panasonic */,
+				A714D2701DAA9F3C00F73A61 /* Sony */,
+			);
+			path = Cameras;
+			sourceTree = "<group>";
+		};
+		A714D26A1DAA9F3C00F73A61 /* Canon */ = {
+			isa = PBXGroup;
+			children = (
+				A714D26B1DAA9F3C00F73A61 /* Canon.swift */,
+			);
+			path = Canon;
+			sourceTree = "<group>";
+		};
+		A714D26C1DAA9F3C00F73A61 /* Fuji */ = {
+			isa = PBXGroup;
+			children = (
+				A714D26D1DAA9F3C00F73A61 /* Fuji.swift */,
+			);
+			path = Fuji;
+			sourceTree = "<group>";
+		};
+		A714D26E1DAA9F3C00F73A61 /* Panasonic */ = {
+			isa = PBXGroup;
+			children = (
+				A714D26F1DAA9F3C00F73A61 /* Panasonic.swift */,
+			);
+			path = Panasonic;
+			sourceTree = "<group>";
+		};
+		A714D2701DAA9F3C00F73A61 /* Sony */ = {
+			isa = PBXGroup;
+			children = (
+				A714D2711DAA9F3C00F73A61 /* Sony.swift */,
+			);
+			path = Sony;
+			sourceTree = "<group>";
+		};
 		A74F970F1DA4141100969A56 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +146,7 @@
 		A74F971B1DA4141100969A56 /* AssetFlow */ = {
 			isa = PBXGroup;
 			children = (
+				A714D2681DAA9F3C00F73A61 /* Cameras */,
 				A74F971C1DA4141100969A56 /* AssetFlow.h */,
 				A74F971D1DA4141100969A56 /* Info.plist */,
 			);
@@ -266,6 +321,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A714D2741DAA9F3C00F73A61 /* Fuji.swift in Sources */,
+				A714D2721DAA9F3C00F73A61 /* Cameras.swift in Sources */,
+				A714D2751DAA9F3C00F73A61 /* Panasonic.swift in Sources */,
+				A714D2731DAA9F3C00F73A61 /* Canon.swift in Sources */,
+				A714D2761DAA9F3C00F73A61 /* Sony.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +516,7 @@
 		A74F97311DA4141100969A56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = HNGG8UGR9A;
 				INFOPLIST_FILE = AssetFlowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -468,6 +529,7 @@
 		A74F97321DA4141100969A56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = HNGG8UGR9A;
 				INFOPLIST_FILE = AssetFlowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -540,6 +602,7 @@
 				A74F97571DA475E700969A56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
