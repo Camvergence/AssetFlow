@@ -20,6 +20,13 @@
 		A74F974F1DA475E700969A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74F974D1DA475E700969A56 /* Main.storyboard */; };
 		A74F97511DA475E700969A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74F97501DA475E700969A56 /* Assets.xcassets */; };
 		A74F97541DA475E700969A56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74F97521DA475E700969A56 /* LaunchScreen.storyboard */; };
+		A784F8301DAAD7B4004221FB /* FujiX70.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F82F1DAAD7B4004221FB /* FujiX70.swift */; };
+		A784F8321DAAD7D3004221FB /* FujiXPro2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8311DAAD7D3004221FB /* FujiXPro2.swift */; };
+		A784F8341DAAD7FF004221FB /* PanasonicLumixDMCGX8.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8331DAAD7FF004221FB /* PanasonicLumixDMCGX8.swift */; };
+		A784F8361DAAD812004221FB /* PanasonicLumixZS60.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8351DAAD812004221FB /* PanasonicLumixZS60.swift */; };
+		A784F8381DAAD94A004221FB /* SonyA7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8371DAAD94A004221FB /* SonyA7.swift */; };
+		A784F83A1DAAD954004221FB /* SonyA6300.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8391DAAD954004221FB /* SonyA6300.swift */; };
+		A784F83C1DAAD981004221FB /* Canon6D.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F83B1DAAD981004221FB /* Canon6D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		A74F97501DA475E700969A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74F97531DA475E700969A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A74F97551DA475E700969A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A784F82F1DAAD7B4004221FB /* FujiX70.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FujiX70.swift; sourceTree = "<group>"; };
+		A784F8311DAAD7D3004221FB /* FujiXPro2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FujiXPro2.swift; sourceTree = "<group>"; };
+		A784F8331DAAD7FF004221FB /* PanasonicLumixDMCGX8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanasonicLumixDMCGX8.swift; sourceTree = "<group>"; };
+		A784F8351DAAD812004221FB /* PanasonicLumixZS60.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanasonicLumixZS60.swift; sourceTree = "<group>"; };
+		A784F8371DAAD94A004221FB /* SonyA7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyA7.swift; sourceTree = "<group>"; };
+		A784F8391DAAD954004221FB /* SonyA6300.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyA6300.swift; sourceTree = "<group>"; };
+		A784F83B1DAAD981004221FB /* Canon6D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canon6D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				A714D26B1DAA9F3C00F73A61 /* Canon.swift */,
+				A784F83B1DAAD981004221FB /* Canon6D.swift */,
 			);
 			path = Canon;
 			sourceTree = "<group>";
@@ -103,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				A714D26D1DAA9F3C00F73A61 /* Fuji.swift */,
+				A784F8311DAAD7D3004221FB /* FujiXPro2.swift */,
+				A784F82F1DAAD7B4004221FB /* FujiX70.swift */,
 			);
 			path = Fuji;
 			sourceTree = "<group>";
@@ -111,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				A714D26F1DAA9F3C00F73A61 /* Panasonic.swift */,
+				A784F8351DAAD812004221FB /* PanasonicLumixZS60.swift */,
+				A784F8331DAAD7FF004221FB /* PanasonicLumixDMCGX8.swift */,
 			);
 			path = Panasonic;
 			sourceTree = "<group>";
@@ -119,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				A714D2711DAA9F3C00F73A61 /* Sony.swift */,
+				A784F8391DAAD954004221FB /* SonyA6300.swift */,
+				A784F8371DAAD94A004221FB /* SonyA7.swift */,
 			);
 			path = Sony;
 			sourceTree = "<group>";
@@ -321,11 +342,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A714D2741DAA9F3C00F73A61 /* Fuji.swift in Sources */,
 				A714D2721DAA9F3C00F73A61 /* Cameras.swift in Sources */,
-				A714D2751DAA9F3C00F73A61 /* Panasonic.swift in Sources */,
 				A714D2731DAA9F3C00F73A61 /* Canon.swift in Sources */,
+				A784F83C1DAAD981004221FB /* Canon6D.swift in Sources */,
+				A714D2741DAA9F3C00F73A61 /* Fuji.swift in Sources */,
+				A784F8321DAAD7D3004221FB /* FujiXPro2.swift in Sources */,
+				A784F8301DAAD7B4004221FB /* FujiX70.swift in Sources */,
+				A714D2751DAA9F3C00F73A61 /* Panasonic.swift in Sources */,
+				A784F8341DAAD7FF004221FB /* PanasonicLumixDMCGX8.swift in Sources */,
+				A784F8361DAAD812004221FB /* PanasonicLumixZS60.swift in Sources */,
 				A714D2761DAA9F3C00F73A61 /* Sony.swift in Sources */,
+				A784F8381DAAD94A004221FB /* SonyA7.swift in Sources */,
+				A784F83A1DAAD954004221FB /* SonyA6300.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
