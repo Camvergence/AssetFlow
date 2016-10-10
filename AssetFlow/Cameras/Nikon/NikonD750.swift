@@ -14,4 +14,4 @@ extension Cameras.Manufacturers.Nikon {
     }
 }
 
-public typealias NikonD750 = Cameras.Manufacturers.Nikon
+public typealias NikonD750 = Cameras.Manufacturers.Nikon.D750

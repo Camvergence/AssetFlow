@@ -14,4 +14,4 @@ extension Cameras.Manufacturers.Canon {
     }
 }
 
-public typealias EOS7DMarkII = Cameras.Manufacturers.Canon.EOS7DMarkII
+public typealias CanonEOS7DMarkII = Cameras.Manufacturers.Canon.EOS7DMarkII
