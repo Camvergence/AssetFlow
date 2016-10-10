@@ -1,19 +1,17 @@
 //
-//  LeicaQ.swift
-//  AssetFlow
+//  Asset Flow, https://github.com/Camvergence/AssetFlow
 //
-//  Created by Matt Klosterman on 10/9/16.
-//  Copyright © 2016 Infofission LLC. All rights reserved.
+//  Copyright (c) 2016-2016 Matt Klosterman and contributors. All rights reserved.
 //
 
 import Foundation
 
 extension Cameras.Manufacturers.Leica {
-    public struct Q : CameraModel {
+    public struct LeicaQ: CameraModel {
         public init() {}
         public let name = "Leica Q"
         public let manufacturerType: CameraManufacturer.Type = Cameras.Manufacturers.Leica.self
     }
 }
 
-public typealias LeicaQ = Cameras.Manufacturers.Leica.Q
+public typealias LeicaQ = Cameras.Manufacturers.Leica.LeicaQ

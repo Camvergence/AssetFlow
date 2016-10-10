@@ -48,6 +48,7 @@
 		A784F8681DAAF49E004221FB /* SonyA7II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8671DAAF49E004221FB /* SonyA7II.swift */; };
 		A784F86A1DAAF4B7004221FB /* SonyA5100.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8691DAAF4B7004221FB /* SonyA5100.swift */; };
 		A784F86C1DAAF4F1004221FB /* SonyCybershotRX1RII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F86B1DAAF4F1004221FB /* SonyCybershotRX1RII.swift */; };
+		A7B8C0F71DABFB1500737D85 /* CanonEOSRebelSL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B8C0F61DABFB1500737D85 /* CanonEOSRebelSL1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		A784F8671DAAF49E004221FB /* SonyA7II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyA7II.swift; sourceTree = "<group>"; };
 		A784F8691DAAF4B7004221FB /* SonyA5100.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyA5100.swift; sourceTree = "<group>"; };
 		A784F86B1DAAF4F1004221FB /* SonyCybershotRX1RII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyCybershotRX1RII.swift; sourceTree = "<group>"; };
+		A7B8C0F61DABFB1500737D85 /* CanonEOSRebelSL1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanonEOSRebelSL1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				A784F8421DAAEF25004221FB /* CanonEOSM3.swift */,
 				A784F8551DAAF29C004221FB /* CanonPowerShotG5X.swift */,
 				A784F8571DAAF2A7004221FB /* CanonPowerShotG9X.swift */,
+				A7B8C0F61DABFB1500737D85 /* CanonEOSRebelSL1.swift */,
 			);
 			path = Canon;
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 				A784F8321DAAD7D3004221FB /* FujiXPro2.swift in Sources */,
 				A784F8301DAAD7B4004221FB /* FujiX70.swift in Sources */,
 				A784F8601DAAF38C004221FB /* PanasonicLumixDMCFZ300.swift in Sources */,
+				A7B8C0F71DABFB1500737D85 /* CanonEOSRebelSL1.swift in Sources */,
 				A784F8341DAAD7FF004221FB /* PanasonicLumixDMCGX8.swift in Sources */,
 				A784F8681DAAF49E004221FB /* SonyA7II.swift in Sources */,
 				A784F8361DAAD812004221FB /* PanasonicLumixZS60.swift in Sources */,

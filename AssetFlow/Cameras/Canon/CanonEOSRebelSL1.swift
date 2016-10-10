@@ -7,11 +7,11 @@
 import Foundation
 
 extension Cameras.Manufacturers.Canon {
-    public struct EOSM3: CameraModel {
+    public struct EOSRebelSL1: CameraModel {
         public init() {}
-        public let name = "Canon EOS M3"
+        public let name = "Canon EOS Rebel SL1"
         public let manufacturerType: CameraManufacturer.Type = Cameras.Manufacturers.Canon.self
     }
 }
 
-public typealias CanonEOSM3 = Cameras.Manufacturers.Canon.EOSM3
+public typealias CanonEOSRebelSL1 = Cameras.Manufacturers.Canon.EOSRebelSL1
