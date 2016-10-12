@@ -58,6 +58,50 @@
 		A7B8C0F71DABFB1500737D85 /* CanonEOSRebelSL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B8C0F61DABFB1500737D85 /* CanonEOSRebelSL1.swift */; };
 		A7BAEA581DAC0C16005FEDA3 /* SamsungNX1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAEA571DAC0C16005FEDA3 /* SamsungNX1.swift */; };
 		A7BAEA5A1DAC0DB5005FEDA3 /* SonyA7s.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAEA591DAC0DB5005FEDA3 /* SonyA7s.swift */; };
+		A7C72CB31DADC459004B665C /* AssetFlowTV.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C72CB11DADC459004B665C /* AssetFlowTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7C72CB71DADC466004B665C /* Cameras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D2691DAA9F3C00F73A61 /* Cameras.swift */; };
+		A7C72CB81DADC46A004B665C /* Canon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D26B1DAA9F3C00F73A61 /* Canon.swift */; };
+		A7C72CB91DADC46A004B665C /* Canon6D.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F83B1DAAD981004221FB /* Canon6D.swift */; };
+		A7C72CBA1DADC46A004B665C /* CanonEOSM3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8421DAAEF25004221FB /* CanonEOSM3.swift */; };
+		A7C72CBB1DADC46A004B665C /* CanonPowerShotG5X.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8551DAAF29C004221FB /* CanonPowerShotG5X.swift */; };
+		A7C72CBC1DADC46A004B665C /* CanonPowerShotG9X.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8571DAAF2A7004221FB /* CanonPowerShotG9X.swift */; };
+		A7C72CBD1DADC46A004B665C /* CanonEOS7DMarkII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F49EF1DAC0A1400F3F126 /* CanonEOS7DMarkII.swift */; };
+		A7C72CBE1DADC46A004B665C /* CanonEOSRebelSL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B8C0F61DABFB1500737D85 /* CanonEOSRebelSL1.swift */; };
+		A7C72CBF1DADC46F004B665C /* DxO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8441DAAEF5F004221FB /* DxO.swift */; };
+		A7C72CC01DADC46F004B665C /* DxOOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8461DAAEFBA004221FB /* DxOOne.swift */; };
+		A7C72CC11DADC473004B665C /* Fuji.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D26D1DAA9F3C00F73A61 /* Fuji.swift */; };
+		A7C72CC21DADC473004B665C /* FujiXPro2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8311DAAD7D3004221FB /* FujiXPro2.swift */; };
+		A7C72CC31DADC473004B665C /* FujiX70.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F82F1DAAD7B4004221FB /* FujiX70.swift */; };
+		A7C72CC41DADC473004B665C /* FujiX100t.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F49F51DAC0B5800F3F126 /* FujiX100t.swift */; };
+		A7C72CC51DADC473004B665C /* FujiXA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8481DAAF006004221FB /* FujiXA2.swift */; };
+		A7C72CC61DADC478004B665C /* Leica.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F84B1DAAF04E004221FB /* Leica.swift */; };
+		A7C72CC71DADC478004B665C /* LeicaQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F84D1DAAF096004221FB /* LeicaQ.swift */; };
+		A7C72CC81DADC478004B665C /* LeicaSLTyp601.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F84F1DAAF122004221FB /* LeicaSLTyp601.swift */; };
+		A7C72CC91DADC47D004B665C /* Nikon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8511DAAF178004221FB /* Nikon.swift */; };
+		A7C72CCA1DADC47D004B665C /* Nikon1J5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8531DAAF1B0004221FB /* Nikon1J5.swift */; };
+		A7C72CCB1DADC47D004B665C /* NikonD750.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F49F31DAC0B2D00F3F126 /* NikonD750.swift */; };
+		A7C72CCC1DADC481004B665C /* OlympusEM1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A30E951DAC59700042AD6B /* OlympusEM1.swift */; };
+		A7C72CCD1DADC481004B665C /* OlympusEP5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A30E961DAC59700042AD6B /* OlympusEP5.swift */; };
+		A7C72CCE1DADC481004B665C /* Olympus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8591DAAF2E9004221FB /* Olympus.swift */; };
+		A7C72CCF1DADC481004B665C /* OlympusPenEPL7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F85B1DAAF310004221FB /* OlympusPenEPL7.swift */; };
+		A7C72CD01DADC481004B665C /* OlympusTG4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F85D1DAAF349004221FB /* OlympusTG4.swift */; };
+		A7C72CD11DADC486004B665C /* Panasonic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D26F1DAA9F3C00F73A61 /* Panasonic.swift */; };
+		A7C72CD21DADC486004B665C /* PanasonicLumixDMCGX7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F49F11DAC0AC400F3F126 /* PanasonicLumixDMCGX7.swift */; };
+		A7C72CD31DADC486004B665C /* PanasonicLumixZS60.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8351DAAD812004221FB /* PanasonicLumixZS60.swift */; };
+		A7C72CD41DADC486004B665C /* PanasonicLumixDMCGX8.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8331DAAD7FF004221FB /* PanasonicLumixDMCGX8.swift */; };
+		A7C72CD51DADC486004B665C /* PanasonicLumixDMCFZ300.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F85F1DAAF38C004221FB /* PanasonicLumixDMCFZ300.swift */; };
+		A7C72CD61DADC48B004B665C /* Pentax.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8611DAAF3C3004221FB /* Pentax.swift */; };
+		A7C72CD71DADC48B004B665C /* PentaxK3II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8631DAAF41E004221FB /* PentaxK3II.swift */; };
+		A7C72CD81DADC48B004B665C /* PentaxKS2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8651DAAF452004221FB /* PentaxKS2.swift */; };
+		A7C72CD91DADC491004B665C /* Samsung.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F49F81DAC0BA900F3F126 /* Samsung.swift */; };
+		A7C72CDA1DADC491004B665C /* SamsungNX1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAEA571DAC0C16005FEDA3 /* SamsungNX1.swift */; };
+		A7C72CDB1DADC496004B665C /* Sony.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D2711DAA9F3C00F73A61 /* Sony.swift */; };
+		A7C72CDC1DADC496004B665C /* SonyA6300.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8391DAAD954004221FB /* SonyA6300.swift */; };
+		A7C72CDD1DADC496004B665C /* SonyA7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8371DAAD94A004221FB /* SonyA7.swift */; };
+		A7C72CDE1DADC496004B665C /* SonyA7s.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAEA591DAC0DB5005FEDA3 /* SonyA7s.swift */; };
+		A7C72CDF1DADC496004B665C /* SonyA7II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8671DAAF49E004221FB /* SonyA7II.swift */; };
+		A7C72CE01DADC496004B665C /* SonyA5100.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8691DAAF4B7004221FB /* SonyA5100.swift */; };
+		A7C72CE11DADC496004B665C /* SonyCybershotRX1RII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F86B1DAAF4F1004221FB /* SonyCybershotRX1RII.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +171,9 @@
 		A7B8C0F61DABFB1500737D85 /* CanonEOSRebelSL1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanonEOSRebelSL1.swift; sourceTree = "<group>"; };
 		A7BAEA571DAC0C16005FEDA3 /* SamsungNX1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamsungNX1.swift; sourceTree = "<group>"; };
 		A7BAEA591DAC0DB5005FEDA3 /* SonyA7s.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyA7s.swift; sourceTree = "<group>"; };
+		A7C72CAF1DADC459004B665C /* AssetFlowTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AssetFlowTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C72CB11DADC459004B665C /* AssetFlowTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetFlowTV.h; sourceTree = "<group>"; };
+		A7C72CB21DADC459004B665C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +193,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A74F97441DA475E700969A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C72CAB1DADC459004B665C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -240,6 +294,7 @@
 				A74F971B1DA4141100969A56 /* AssetFlow */,
 				A74F97261DA4141100969A56 /* AssetFlowTests */,
 				A74F97481DA475E700969A56 /* Example1 */,
+				A7C72CB01DADC459004B665C /* AssetFlowTV */,
 				A74F971A1DA4141100969A56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -250,6 +305,7 @@
 				A74F97191DA4141100969A56 /* AssetFlow.framework */,
 				A74F97221DA4141100969A56 /* AssetFlowTests.xctest */,
 				A74F97471DA475E700969A56 /* Example1.app */,
+				A7C72CAF1DADC459004B665C /* AssetFlowTV.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -337,6 +393,15 @@
 			path = Pentax;
 			sourceTree = "<group>";
 		};
+		A7C72CB01DADC459004B665C /* AssetFlowTV */ = {
+			isa = PBXGroup;
+			children = (
+				A7C72CB11DADC459004B665C /* AssetFlowTV.h */,
+				A7C72CB21DADC459004B665C /* Info.plist */,
+			);
+			path = AssetFlowTV;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -345,6 +410,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74F972A1DA4141100969A56 /* AssetFlow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C72CAC1DADC459004B665C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C72CB31DADC459004B665C /* AssetFlowTV.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +477,24 @@
 			productReference = A74F97471DA475E700969A56 /* Example1.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A7C72CAE1DADC459004B665C /* AssetFlowTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C72CB61DADC459004B665C /* Build configuration list for PBXNativeTarget "AssetFlowTV" */;
+			buildPhases = (
+				A7C72CAA1DADC459004B665C /* Sources */,
+				A7C72CAB1DADC459004B665C /* Frameworks */,
+				A7C72CAC1DADC459004B665C /* Headers */,
+				A7C72CAD1DADC459004B665C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssetFlowTV;
+			productName = AssetFlowTV;
+			productReference = A7C72CAF1DADC459004B665C /* AssetFlowTV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -429,6 +520,11 @@
 						DevelopmentTeam = HNGG8UGR9A;
 						ProvisioningStyle = Automatic;
 					};
+					A7C72CAE1DADC459004B665C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HNGG8UGR9A;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = A74F97131DA4141100969A56 /* Build configuration list for PBXProject "AssetFlow" */;
@@ -445,6 +541,7 @@
 			projectRoot = "";
 			targets = (
 				A74F97181DA4141100969A56 /* AssetFlow */,
+				A7C72CAE1DADC459004B665C /* AssetFlowTV */,
 				A74F97211DA4141100969A56 /* AssetFlowTests */,
 				A74F97461DA475E700969A56 /* Example1 */,
 			);
@@ -473,6 +570,13 @@
 				A74F97541DA475E700969A56 /* LaunchScreen.storyboard in Resources */,
 				A74F97511DA475E700969A56 /* Assets.xcassets in Resources */,
 				A74F974F1DA475E700969A56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C72CAD1DADC459004B665C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +647,56 @@
 			files = (
 				A74F974C1DA475E700969A56 /* ViewController.swift in Sources */,
 				A74F974A1DA475E700969A56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C72CAA1DADC459004B665C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C72CB71DADC466004B665C /* Cameras.swift in Sources */,
+				A7C72CD61DADC48B004B665C /* Pentax.swift in Sources */,
+				A7C72CC11DADC473004B665C /* Fuji.swift in Sources */,
+				A7C72CD11DADC486004B665C /* Panasonic.swift in Sources */,
+				A7C72CB81DADC46A004B665C /* Canon.swift in Sources */,
+				A7C72CBF1DADC46F004B665C /* DxO.swift in Sources */,
+				A7C72CC91DADC47D004B665C /* Nikon.swift in Sources */,
+				A7C72CC61DADC478004B665C /* Leica.swift in Sources */,
+				A7C72CDB1DADC496004B665C /* Sony.swift in Sources */,
+				A7C72CCE1DADC481004B665C /* Olympus.swift in Sources */,
+				A7C72CD91DADC491004B665C /* Samsung.swift in Sources */,
+				A7C72CD81DADC48B004B665C /* PentaxKS2.swift in Sources */,
+				A7C72CB91DADC46A004B665C /* Canon6D.swift in Sources */,
+				A7C72CDA1DADC491004B665C /* SamsungNX1.swift in Sources */,
+				A7C72CBE1DADC46A004B665C /* CanonEOSRebelSL1.swift in Sources */,
+				A7C72CBA1DADC46A004B665C /* CanonEOSM3.swift in Sources */,
+				A7C72CC41DADC473004B665C /* FujiX100t.swift in Sources */,
+				A7C72CCD1DADC481004B665C /* OlympusEP5.swift in Sources */,
+				A7C72CC21DADC473004B665C /* FujiXPro2.swift in Sources */,
+				A7C72CDE1DADC496004B665C /* SonyA7s.swift in Sources */,
+				A7C72CBB1DADC46A004B665C /* CanonPowerShotG5X.swift in Sources */,
+				A7C72CDF1DADC496004B665C /* SonyA7II.swift in Sources */,
+				A7C72CCC1DADC481004B665C /* OlympusEM1.swift in Sources */,
+				A7C72CD31DADC486004B665C /* PanasonicLumixZS60.swift in Sources */,
+				A7C72CDD1DADC496004B665C /* SonyA7.swift in Sources */,
+				A7C72CDC1DADC496004B665C /* SonyA6300.swift in Sources */,
+				A7C72CC81DADC478004B665C /* LeicaSLTyp601.swift in Sources */,
+				A7C72CBC1DADC46A004B665C /* CanonPowerShotG9X.swift in Sources */,
+				A7C72CD51DADC486004B665C /* PanasonicLumixDMCFZ300.swift in Sources */,
+				A7C72CC31DADC473004B665C /* FujiX70.swift in Sources */,
+				A7C72CD01DADC481004B665C /* OlympusTG4.swift in Sources */,
+				A7C72CC01DADC46F004B665C /* DxOOne.swift in Sources */,
+				A7C72CCF1DADC481004B665C /* OlympusPenEPL7.swift in Sources */,
+				A7C72CC51DADC473004B665C /* FujiXA2.swift in Sources */,
+				A7C72CCB1DADC47D004B665C /* NikonD750.swift in Sources */,
+				A7C72CCA1DADC47D004B665C /* Nikon1J5.swift in Sources */,
+				A7C72CBD1DADC46A004B665C /* CanonEOS7DMarkII.swift in Sources */,
+				A7C72CD21DADC486004B665C /* PanasonicLumixDMCGX7.swift in Sources */,
+				A7C72CD71DADC48B004B665C /* PentaxK3II.swift in Sources */,
+				A7C72CE11DADC496004B665C /* SonyCybershotRX1RII.swift in Sources */,
+				A7C72CC71DADC478004B665C /* LeicaQ.swift in Sources */,
+				A7C72CE01DADC496004B665C /* SonyA5100.swift in Sources */,
+				A7C72CD41DADC486004B665C /* PanasonicLumixDMCGX8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,6 +919,50 @@
 			};
 			name = Release;
 		};
+		A7C72CB41DADC459004B665C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HNGG8UGR9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AssetFlowTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.AssetFlowTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A7C72CB51DADC459004B665C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HNGG8UGR9A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AssetFlowTV/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.AssetFlowTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -803,6 +1001,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		A7C72CB61DADC459004B665C /* Build configuration list for PBXNativeTarget "AssetFlowTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C72CB41DADC459004B665C /* Debug */,
+				A7C72CB51DADC459004B665C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
