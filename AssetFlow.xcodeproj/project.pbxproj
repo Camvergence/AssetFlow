@@ -58,6 +58,14 @@
 		A7B8C0F71DABFB1500737D85 /* CanonEOSRebelSL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B8C0F61DABFB1500737D85 /* CanonEOSRebelSL1.swift */; };
 		A7BAEA581DAC0C16005FEDA3 /* SamsungNX1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAEA571DAC0C16005FEDA3 /* SamsungNX1.swift */; };
 		A7BAEA5A1DAC0DB5005FEDA3 /* SonyA7s.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAEA591DAC0DB5005FEDA3 /* SonyA7s.swift */; };
+		A7BFD22F1DAFCECB00BB6349 /* UIImageView_PHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */; };
+		A7BFD2301DAFCECB00BB6349 /* UIImageView_PHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */; };
+		A7BFD2331DAFCF4600BB6349 /* PHAsset_AssetFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2311DAFCF4600BB6349 /* PHAsset_AssetFlow.swift */; };
+		A7BFD2341DAFCF4600BB6349 /* PHAsset_AssetFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2311DAFCF4600BB6349 /* PHAsset_AssetFlow.swift */; };
+		A7BFD23B1DAFD06600BB6349 /* CGSize_ScreenScaled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD23A1DAFD06600BB6349 /* CGSize_ScreenScaled.swift */; };
+		A7BFD23C1DAFD06600BB6349 /* CGSize_ScreenScaled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD23A1DAFD06600BB6349 /* CGSize_ScreenScaled.swift */; };
+		A7BFD2471DAFD3D700BB6349 /* AssetFlowUti.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2461DAFD3D700BB6349 /* AssetFlowUti.swift */; };
+		A7BFD2481DAFD3D700BB6349 /* AssetFlowUti.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2461DAFD3D700BB6349 /* AssetFlowUti.swift */; };
 		A7C72CB31DADC459004B665C /* AssetFlowTV.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C72CB11DADC459004B665C /* AssetFlowTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7C72CB71DADC466004B665C /* Cameras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D2691DAA9F3C00F73A61 /* Cameras.swift */; };
 		A7C72CB81DADC46A004B665C /* Canon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D26B1DAA9F3C00F73A61 /* Canon.swift */; };
@@ -171,6 +179,10 @@
 		A7B8C0F61DABFB1500737D85 /* CanonEOSRebelSL1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanonEOSRebelSL1.swift; sourceTree = "<group>"; };
 		A7BAEA571DAC0C16005FEDA3 /* SamsungNX1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamsungNX1.swift; sourceTree = "<group>"; };
 		A7BAEA591DAC0DB5005FEDA3 /* SonyA7s.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyA7s.swift; sourceTree = "<group>"; };
+		A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView_PHAsset.swift; sourceTree = "<group>"; };
+		A7BFD2311DAFCF4600BB6349 /* PHAsset_AssetFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHAsset_AssetFlow.swift; sourceTree = "<group>"; };
+		A7BFD23A1DAFD06600BB6349 /* CGSize_ScreenScaled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize_ScreenScaled.swift; sourceTree = "<group>"; };
+		A7BFD2461DAFD3D700BB6349 /* AssetFlowUti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetFlowUti.swift; sourceTree = "<group>"; };
 		A7C72CAF1DADC459004B665C /* AssetFlowTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AssetFlowTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C72CB11DADC459004B665C /* AssetFlowTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetFlowTV.h; sourceTree = "<group>"; };
 		A7C72CB21DADC459004B665C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -313,6 +325,9 @@
 		A74F971B1DA4141100969A56 /* AssetFlow */ = {
 			isa = PBXGroup;
 			children = (
+				A7BFD2461DAFD3D700BB6349 /* AssetFlowUti.swift */,
+				A7BFD23A1DAFD06600BB6349 /* CGSize_ScreenScaled.swift */,
+				A7BFD22D1DAFCE7D00BB6349 /* PhotosPlus */,
 				A714D2681DAA9F3C00F73A61 /* Cameras */,
 				A74F971C1DA4141100969A56 /* AssetFlow.h */,
 				A74F971D1DA4141100969A56 /* Info.plist */,
@@ -391,6 +406,15 @@
 				A784F8651DAAF452004221FB /* PentaxKS2.swift */,
 			);
 			path = Pentax;
+			sourceTree = "<group>";
+		};
+		A7BFD22D1DAFCE7D00BB6349 /* PhotosPlus */ = {
+			isa = PBXGroup;
+			children = (
+				A7BFD2311DAFCF4600BB6349 /* PHAsset_AssetFlow.swift */,
+				A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */,
+			);
+			path = PhotosPlus;
 			sourceTree = "<group>";
 		};
 		A7C72CB01DADC459004B665C /* AssetFlowTV */ = {
@@ -588,6 +612,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A714D2721DAA9F3C00F73A61 /* Cameras.swift in Sources */,
+				A7BFD2471DAFD3D700BB6349 /* AssetFlowUti.swift in Sources */,
 				A714D2731DAA9F3C00F73A61 /* Canon.swift in Sources */,
 				A784F8451DAAEF5F004221FB /* DxO.swift in Sources */,
 				A714D2741DAA9F3C00F73A61 /* Fuji.swift in Sources */,
@@ -595,6 +620,7 @@
 				A784F8521DAAF178004221FB /* Nikon.swift in Sources */,
 				A714D2751DAA9F3C00F73A61 /* Panasonic.swift in Sources */,
 				A784F8621DAAF3C3004221FB /* Pentax.swift in Sources */,
+				A7BFD23B1DAFD06600BB6349 /* CGSize_ScreenScaled.swift in Sources */,
 				A784F85A1DAAF2E9004221FB /* Olympus.swift in Sources */,
 				A714D2761DAA9F3C00F73A61 /* Sony.swift in Sources */,
 				A7A30E981DAC59700042AD6B /* OlympusEP5.swift in Sources */,
@@ -622,6 +648,7 @@
 				A784F86A1DAAF4B7004221FB /* SonyA5100.swift in Sources */,
 				A74F49F41DAC0B2D00F3F126 /* NikonD750.swift in Sources */,
 				A7BAEA581DAC0C16005FEDA3 /* SamsungNX1.swift in Sources */,
+				A7BFD2331DAFCF4600BB6349 /* PHAsset_AssetFlow.swift in Sources */,
 				A784F84E1DAAF096004221FB /* LeicaQ.swift in Sources */,
 				A784F86C1DAAF4F1004221FB /* SonyCybershotRX1RII.swift in Sources */,
 				A7BAEA5A1DAC0DB5005FEDA3 /* SonyA7s.swift in Sources */,
@@ -630,6 +657,7 @@
 				A784F8471DAAEFBA004221FB /* DxOOne.swift in Sources */,
 				A784F83A1DAAD954004221FB /* SonyA6300.swift in Sources */,
 				A784F8501DAAF122004221FB /* LeicaSLTyp601.swift in Sources */,
+				A7BFD22F1DAFCECB00BB6349 /* UIImageView_PHAsset.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +683,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C72CB71DADC466004B665C /* Cameras.swift in Sources */,
+				A7BFD2481DAFD3D700BB6349 /* AssetFlowUti.swift in Sources */,
 				A7C72CD61DADC48B004B665C /* Pentax.swift in Sources */,
 				A7C72CC11DADC473004B665C /* Fuji.swift in Sources */,
 				A7C72CD11DADC486004B665C /* Panasonic.swift in Sources */,
@@ -662,6 +691,7 @@
 				A7C72CBF1DADC46F004B665C /* DxO.swift in Sources */,
 				A7C72CC91DADC47D004B665C /* Nikon.swift in Sources */,
 				A7C72CC61DADC478004B665C /* Leica.swift in Sources */,
+				A7BFD23C1DAFD06600BB6349 /* CGSize_ScreenScaled.swift in Sources */,
 				A7C72CDB1DADC496004B665C /* Sony.swift in Sources */,
 				A7C72CCE1DADC481004B665C /* Olympus.swift in Sources */,
 				A7C72CD91DADC491004B665C /* Samsung.swift in Sources */,
@@ -689,6 +719,7 @@
 				A7C72CCF1DADC481004B665C /* OlympusPenEPL7.swift in Sources */,
 				A7C72CC51DADC473004B665C /* FujiXA2.swift in Sources */,
 				A7C72CCB1DADC47D004B665C /* NikonD750.swift in Sources */,
+				A7BFD2341DAFCF4600BB6349 /* PHAsset_AssetFlow.swift in Sources */,
 				A7C72CCA1DADC47D004B665C /* Nikon1J5.swift in Sources */,
 				A7C72CBD1DADC46A004B665C /* CanonEOS7DMarkII.swift in Sources */,
 				A7C72CD21DADC486004B665C /* PanasonicLumixDMCGX7.swift in Sources */,
@@ -697,6 +728,7 @@
 				A7C72CC71DADC478004B665C /* LeicaQ.swift in Sources */,
 				A7C72CE01DADC496004B665C /* SonyA5100.swift in Sources */,
 				A7C72CD41DADC486004B665C /* PanasonicLumixDMCGX8.swift in Sources */,
+				A7BFD2301DAFCECB00BB6349 /* UIImageView_PHAsset.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,6 +1041,7 @@
 				A7C72CB51DADC459004B665C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
