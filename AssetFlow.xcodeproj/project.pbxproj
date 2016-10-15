@@ -25,6 +25,7 @@
 		A74F974F1DA475E700969A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74F974D1DA475E700969A56 /* Main.storyboard */; };
 		A74F97511DA475E700969A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74F97501DA475E700969A56 /* Assets.xcassets */; };
 		A74F97541DA475E700969A56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74F97521DA475E700969A56 /* LaunchScreen.storyboard */; };
+		A755C08C1DB1B1920014BCA3 /* CGSizeScreenScaledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A755C08B1DB1B1920014BCA3 /* CGSizeScreenScaledTests.swift */; };
 		A784F8301DAAD7B4004221FB /* FujiX70.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F82F1DAAD7B4004221FB /* FujiX70.swift */; };
 		A784F8321DAAD7D3004221FB /* FujiXPro2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8311DAAD7D3004221FB /* FujiXPro2.swift */; };
 		A784F8341DAAD7FF004221FB /* PanasonicLumixDMCGX8.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784F8331DAAD7FF004221FB /* PanasonicLumixDMCGX8.swift */; };
@@ -120,6 +121,13 @@
 			remoteGlobalIDString = A74F97181DA4141100969A56;
 			remoteInfo = AssetFlow;
 		};
+		A755C08D1DB1B1E10014BCA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74F97101DA4141100969A56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74F97461DA475E700969A56;
+			remoteInfo = Example1;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -146,6 +154,7 @@
 		A74F97501DA475E700969A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74F97531DA475E700969A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A74F97551DA475E700969A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A755C08B1DB1B1920014BCA3 /* CGSizeScreenScaledTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeScreenScaledTests.swift; sourceTree = "<group>"; };
 		A784F82F1DAAD7B4004221FB /* FujiX70.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FujiX70.swift; sourceTree = "<group>"; };
 		A784F8311DAAD7D3004221FB /* FujiXPro2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FujiXPro2.swift; sourceTree = "<group>"; };
 		A784F8331DAAD7FF004221FB /* PanasonicLumixDMCGX8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanasonicLumixDMCGX8.swift; sourceTree = "<group>"; };
@@ -339,6 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				A74F97271DA4141100969A56 /* AssetFlowTests.swift */,
+				A755C08B1DB1B1920014BCA3 /* CGSizeScreenScaledTests.swift */,
 				A74F97291DA4141100969A56 /* Info.plist */,
 			);
 			path = AssetFlowTests;
@@ -478,6 +488,7 @@
 			);
 			dependencies = (
 				A74F97251DA4141100969A56 /* PBXTargetDependency */,
+				A755C08E1DB1B1E10014BCA3 /* PBXTargetDependency */,
 			);
 			name = AssetFlowTests;
 			productName = AssetFlowTests;
@@ -538,6 +549,7 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = HNGG8UGR9A;
 						ProvisioningStyle = Automatic;
+						TestTargetID = A74F97461DA475E700969A56;
 					};
 					A74F97461DA475E700969A56 = {
 						CreatedOnToolsVersion = 8.0;
@@ -665,6 +677,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A755C08C1DB1B1920014BCA3 /* CGSizeScreenScaledTests.swift in Sources */,
 				A74F97281DA4141100969A56 /* AssetFlowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -739,6 +752,11 @@
 			isa = PBXTargetDependency;
 			target = A74F97181DA4141100969A56 /* AssetFlow */;
 			targetProxy = A74F97241DA4141100969A56 /* PBXContainerItemProxy */;
+		};
+		A755C08E1DB1B1E10014BCA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74F97461DA475E700969A56 /* Example1 */;
+			targetProxy = A755C08D1DB1B1E10014BCA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -911,6 +929,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.AssetFlowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example1.app/Example1";
 			};
 			name = Debug;
 		};
@@ -924,6 +943,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.AssetFlowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example1.app/Example1";
 			};
 			name = Release;
 		};
