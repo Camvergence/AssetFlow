@@ -13,7 +13,9 @@ class CGSizeScreenScaledTests: XCTestCase {
         let size = CGSize(width: 100, height: 100)
         let scaled = size.screenScaled()
 
-        XCTAssert(scaled == CGSize(width: 100.0 * UIScreen.main.scale, height: 100.0 * UIScreen.main.scale))
+        XCTAssert(scaled == CGSize(width: 100.0 * UIScreen.main.scale,
+                                   height: 100.0 * UIScreen.main.scale)
+        )
     }
 
     func testScreenScaledSizeNegative() {

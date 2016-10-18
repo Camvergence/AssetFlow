@@ -9,7 +9,10 @@ import UIKit
 import Photos
 
 extension UIImageView {
-    public func loadAsset(_ asset: PHAsset?, version: PHImageRequestOptionsVersion = .current, options: PHImageRequestOptions, imageManager: PHImageManager? = nil) {
+    public func loadAsset(_ asset: PHAsset?,
+                          version: PHImageRequestOptionsVersion = .current,
+                          options: PHImageRequestOptions,
+                          imageManager: PHImageManager? = nil) {
         guard let asset = asset
             else {
                 image = nil
@@ -19,7 +22,10 @@ extension UIImageView {
         image = nil
 
         let manager = imageManager ?? PHImageManager.default()
-        manager.requestImage(for: asset, targetSize: bounds.size.screenScaled(), contentMode: .aspectFit, options: options) { [weak self] (image, info) in
+        manager.requestImage(for: asset,
+                             targetSize: bounds.size.screenScaled(),
+                             contentMode: .aspectFit,
+                             options: options) { [weak self] (image, info) in
             self?.image = image
         }
     }
