@@ -54,6 +54,8 @@
 		A72C3A781DC1001000C23105 /* SonyAlphaSLTA68.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C3A4B1DC0FEE300C23105 /* SonyAlphaSLTA68.swift */; };
 		A72C3A791DC1001000C23105 /* SonyCybershotDSCRX10III.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C3A4C1DC0FEE300C23105 /* SonyCybershotDSCRX10III.swift */; };
 		A72C3A7A1DC1001000C23105 /* SonyRX100MarkV.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C3A4D1DC0FEE300C23105 /* SonyRX100MarkV.swift */; };
+		A72C3A811DC105DF00C23105 /* RicohGRII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C3A531DC0FEFF00C23105 /* RicohGRII.swift */; };
+		A72C3A821DC105E100C23105 /* Ricoh.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C3A551DC0FF1500C23105 /* Ricoh.swift */; };
 		A74F49F01DAC0A1400F3F126 /* CanonEOS7DMarkII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F49EF1DAC0A1400F3F126 /* CanonEOS7DMarkII.swift */; };
 		A74F49F21DAC0AC400F3F126 /* PanasonicLumixDMCGX7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F49F11DAC0AC400F3F126 /* PanasonicLumixDMCGX7.swift */; };
 		A74F49F41DAC0B2D00F3F126 /* NikonD750.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F49F31DAC0B2D00F3F126 /* NikonD750.swift */; };
@@ -849,6 +851,7 @@
 				A72C3A6E1DC0FFE000C23105 /* FujifilmWCLX70.swift in Sources */,
 				A7C72CCE1DADC481004B665C /* Olympus.swift in Sources */,
 				A7C72CD91DADC491004B665C /* Samsung.swift in Sources */,
+				A72C3A821DC105E100C23105 /* Ricoh.swift in Sources */,
 				A72C3A6D1DC0FFDA00C23105 /* CanonPowerShotG7XMarkII.swift in Sources */,
 				A7C72CD81DADC48B004B665C /* PentaxKS2.swift in Sources */,
 				A7C72CB91DADC46A004B665C /* Canon6D.swift in Sources */,
@@ -859,6 +862,7 @@
 				A72C3A781DC1001000C23105 /* SonyAlphaSLTA68.swift in Sources */,
 				A72C3A691DC0FFDA00C23105 /* CanonEOS5DSR.swift in Sources */,
 				A7C72CBA1DADC46A004B665C /* CanonEOSM3.swift in Sources */,
+				A72C3A811DC105DF00C23105 /* RicohGRII.swift in Sources */,
 				A7C72CC41DADC473004B665C /* FujiX100t.swift in Sources */,
 				A72C3A761DC1000800C23105 /* PentaxK70.swift in Sources */,
 				A7C72CCD1DADC481004B665C /* OlympusEP5.swift in Sources */,
