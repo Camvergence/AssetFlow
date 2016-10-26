@@ -7,11 +7,11 @@
 import Foundation
 
 extension Cameras.Manufacturers.Canon {
-    public struct PowerShotG5X: CameraModel {
+    public struct PowerShotG7XMarkII: CameraModel {
         public init() {}
-        public let name = "Canon PowerShot G5 X"
+        public let name = "Canon PowerShot G7X Mark II"
         public let manufacturerType: CameraManufacturer.Type = Cameras.Manufacturers.Canon.self
     }
 }
 
-public typealias CanonPowerShotG5X = Cameras.Manufacturers.Canon.PowerShotG5X
+public typealias CanonPowerShotG7XMarkII = Cameras.Manufacturers.Canon.PowerShotG7XMarkII
