@@ -9,7 +9,7 @@ import Foundation
 extension Cameras.Manufacturers.Canon {
     public struct EOS6D: CameraModel {
         public init() {}
-        public let name = "Canon 6D"
+        public let name = "Canon EOS 6D"
         public let manufacturerType: CameraManufacturer.Type = Cameras.Manufacturers.Canon.self
     }
 }
