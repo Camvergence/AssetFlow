@@ -6,12 +6,12 @@
 
 import Foundation
 
-extension Cameras.Manufacturers.Fuji {
+extension Cameras.Manufacturers.Fujifilm {
     public struct XT2: CameraModel {
         public init() {}
         public let name = "Fujifilm X-T2"
-        public let manufacturerType: CameraManufacturer.Type = Cameras.Manufacturers.Fuji.self
+        public let manufacturerType: CameraManufacturer.Type = Cameras.Manufacturers.Fujifilm.self
     }
 }
 
-public typealias FujiXT2 = Cameras.Manufacturers.Fuji.XT2
+public typealias FujifilmXT2 = Cameras.Manufacturers.Fujifilm.XT2
