@@ -2406,8 +2406,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7980AAB1DCEB02800D04D87 /* Konica-Minolta.swift in Sources */,
 				A77A25211DCBD8B800D43948 /* DJI.swift in Sources */,
 				A7980AA81DCEB00800D04D87 /* Leaf.swift in Sources */,
+				A7980AB41DCEB07D00D04D87 /* Epson.swift in Sources */,
 				A7980AA51DCEAFD400D04D87 /* Minolta.swift in Sources */,
 				A7BFD23B1DAFD06600BB6349 /* CGSize_ScreenScaled.swift in Sources */,
 				A7980AAE1DCEB04700D04D87 /* Kodak.swift in Sources */,
@@ -2614,7 +2616,6 @@
 				A79808A31DCEACC600D04D87 /* OlympusC7000Z.swift in Sources */,
 				A79809611DCEACD400D04D87 /* PanasonicLUMIXDMCL1.swift in Sources */,
 				A79808D11DCEACC600D04D87 /* OlympusPENEP2.swift in Sources */,
-				A7980AB41DCEB07D00D04D87 /* Epson.swift in Sources */,
 				A7980B0E1DCEB44C00D04D87 /* OlympusTG4.swift in Sources */,
 				A7980AFC1DCEB44200D04D87 /* NikonD5.swift in Sources */,
 				A7980B2E1DCEB46100D04D87 /* SonyCybershotDSCRX10III.swift in Sources */,
@@ -2866,7 +2867,6 @@
 				A7BFD2331DAFCF4600BB6349 /* PHAsset_AssetFlow.swift in Sources */,
 				A79807441DCEAC6D00D04D87 /* LeafAFiII7.swift in Sources */,
 				A798065D1DCEAB4900D04D87 /* CanonEOSDigitalRebelXSi.swift in Sources */,
-				A7980AAB1DCEB02800D04D87 /* Konica-Minolta.swift in Sources */,
 				A79809351DCEACD400D04D87 /* PanasonicLUMIXDMCFZ1000.swift in Sources */,
 				A7980B3F1DCEB5B400D04D87 /* PanasonicLumixDMCFZ300.swift in Sources */,
 				A79808A11DCEACC600D04D87 /* OlympusC70Z.swift in Sources */,
