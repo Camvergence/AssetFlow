@@ -489,6 +489,9 @@
 		A7980B511DCEB5C000D04D87 /* PentaxK70.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B4B1DCEB5C000D04D87 /* PentaxK70.swift */; };
 		A7980B531DCEB5C000D04D87 /* PentaxKS2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B4C1DCEB5C000D04D87 /* PentaxKS2.swift */; };
 		A7980B561DCEB5E000D04D87 /* RicohGRII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B551DCEB5E000D04D87 /* RicohGRII.swift */; };
+		A7B0898C1DD17911006C017A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898B1DD17911006C017A /* UIKit.framework */; };
+		A7B0898E1DD17918006C017A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898D1DD17918006C017A /* Photos.framework */; };
+		A7B089901DD17928006C017A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898F1DD17928006C017A /* MobileCoreServices.framework */; };
 		A7BFD22F1DAFCECB00BB6349 /* UIImageView_PHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */; };
 		A7BFD2331DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2311DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift */; };
 		A7BFD23B1DAFD06600BB6349 /* CGSize_ScreenScaled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD23A1DAFD06600BB6349 /* CGSize_ScreenScaled.swift */; };
@@ -1003,6 +1006,9 @@
 		A7B0897A1DD16C2F006C017A /* UniversalFramework_Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = UniversalFramework_Base.xcconfig; path = xcconfigs/UniversalFramework_Base.xcconfig; sourceTree = "<group>"; };
 		A7B0897B1DD16C2F006C017A /* UniversalFramework_Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = UniversalFramework_Framework.xcconfig; path = xcconfigs/UniversalFramework_Framework.xcconfig; sourceTree = "<group>"; };
 		A7B0897C1DD16C2F006C017A /* UniversalFramework_Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = UniversalFramework_Test.xcconfig; path = xcconfigs/UniversalFramework_Test.xcconfig; sourceTree = "<group>"; };
+		A7B0898B1DD17911006C017A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7B0898D1DD17918006C017A /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		A7B0898F1DD17928006C017A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView_PHAsset.swift; sourceTree = "<group>"; };
 		A7BFD2311DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHAsset_PhotosPlus.swift; sourceTree = "<group>"; };
 		A7BFD23A1DAFD06600BB6349 /* CGSize_ScreenScaled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize_ScreenScaled.swift; sourceTree = "<group>"; };
@@ -1014,6 +1020,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B089901DD17928006C017A /* MobileCoreServices.framework in Frameworks */,
+				A7B0898E1DD17918006C017A /* Photos.framework in Frameworks */,
+				A7B0898C1DD17911006C017A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1356,6 +1365,7 @@
 				A74F97261DA4141100969A56 /* PhotosPlusTests */,
 				A74F97481DA475E700969A56 /* Example1 */,
 				A74F971A1DA4141100969A56 /* Products */,
+				A7B0898A1DD17911006C017A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1717,6 +1727,16 @@
 				A79807B11DCEAC9F00D04D87 /* MinoltaDiMAGEA2.swift */,
 			);
 			path = Minolta;
+			sourceTree = "<group>";
+		};
+		A7B0898A1DD17911006C017A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7B0898F1DD17928006C017A /* MobileCoreServices.framework */,
+				A7B0898D1DD17918006C017A /* Photos.framework */,
+				A7B0898B1DD17911006C017A /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A7BFD22D1DAFCE7D00BB6349 /* PhotosPlus */ = {
