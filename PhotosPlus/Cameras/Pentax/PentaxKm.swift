@@ -7,6 +7,7 @@
 import Foundation
 
 extension Cameras.Manufacturers.Pentax {
+    //swiftlint:disable type_name
     public struct Km: CameraModel {
         public init() {}
         public let name = "Pentax K-m "

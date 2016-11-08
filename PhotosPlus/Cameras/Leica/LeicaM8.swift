@@ -7,6 +7,7 @@
 import Foundation
 
 extension Cameras.Manufacturers.Leica {
+    //swiftlint:disable type_name
     public struct M8: CameraModel {
         public init() {}
         public let name = "Leica M8"

@@ -7,6 +7,7 @@
 import Foundation
 
 extension Cameras.Manufacturers.Nikon {
+    //swiftlint:disable type_name
     public struct D4: CameraModel {
         public init() {}
         public let name = "Nikon D4"

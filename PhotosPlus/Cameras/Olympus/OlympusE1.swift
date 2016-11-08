@@ -7,6 +7,7 @@
 import Foundation
 
 extension Cameras.Manufacturers.Olympus {
+    //swiftlint:disable type_name
     public struct E1: CameraModel {
         public init() {}
         public let name = "Olympus E-1"
