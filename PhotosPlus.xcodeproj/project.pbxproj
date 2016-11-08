@@ -1828,13 +1828,12 @@
 				TargetAttributes = {
 					A74F97181DA4141100969A56 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					A74F97211DA4141100969A56 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = HNGG8UGR9A;
 						ProvisioningStyle = Automatic;
-						TestTargetID = A74F97461DA475E700969A56;
 					};
 					A74F97461DA475E700969A56 = {
 						CreatedOnToolsVersion = 8.0;
@@ -2535,6 +2534,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -2556,6 +2556,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -2582,7 +2583,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.AssetFlowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example1.app/Example1";
 			};
 			name = Debug;
 		};
@@ -2597,7 +2597,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.AssetFlowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example1.app/Example1";
 			};
 			name = Release;
 		};
