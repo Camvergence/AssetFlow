@@ -5,6 +5,8 @@
 //
 
 import Foundation
+
+#if os(iOS) || os(watchOS) || os(tvOS)
 import UIKit
 
 extension CGSize {
@@ -15,3 +17,4 @@ extension CGSize {
         return scaled
     }
 }
+#endif

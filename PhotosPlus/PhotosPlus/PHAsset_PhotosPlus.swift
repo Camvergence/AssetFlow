@@ -5,6 +5,9 @@
 //
 
 import Foundation
+
+#if os(iOS) || os(tvOS)
+
 import MobileCoreServices
 import Photos
 
@@ -91,3 +94,5 @@ extension Array where Element : PHAssetResource {
         })
     }
 }
+
+#endif

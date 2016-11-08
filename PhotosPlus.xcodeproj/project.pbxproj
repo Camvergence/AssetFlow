@@ -489,9 +489,9 @@
 		A7980B511DCEB5C000D04D87 /* PentaxK70.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B4B1DCEB5C000D04D87 /* PentaxK70.swift */; };
 		A7980B531DCEB5C000D04D87 /* PentaxKS2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B4C1DCEB5C000D04D87 /* PentaxKS2.swift */; };
 		A7980B561DCEB5E000D04D87 /* RicohGRII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B551DCEB5E000D04D87 /* RicohGRII.swift */; };
-		A7B0898C1DD17911006C017A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898B1DD17911006C017A /* UIKit.framework */; };
-		A7B0898E1DD17918006C017A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898D1DD17918006C017A /* Photos.framework */; };
-		A7B089901DD17928006C017A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898F1DD17928006C017A /* MobileCoreServices.framework */; };
+		A7B0898C1DD17911006C017A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898B1DD17911006C017A /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A7B0898E1DD17918006C017A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898D1DD17918006C017A /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A7B089901DD17928006C017A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898F1DD17928006C017A /* MobileCoreServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A7B089991DD1AA09006C017A /* UniversalFramework_Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7B089961DD1AA08006C017A /* UniversalFramework_Base.xcconfig */; };
 		A7B0899A1DD1AA09006C017A /* UniversalFramework_Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7B089971DD1AA08006C017A /* UniversalFramework_Framework.xcconfig */; };
 		A7B0899B1DD1AA09006C017A /* UniversalFramework_Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7B089981DD1AA08006C017A /* UniversalFramework_Test.xcconfig */; };
@@ -1023,9 +1023,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7B089901DD17928006C017A /* MobileCoreServices.framework in Frameworks */,
-				A7B0898E1DD17918006C017A /* Photos.framework in Frameworks */,
 				A7B0898C1DD17911006C017A /* UIKit.framework in Frameworks */,
+				A7B0898E1DD17918006C017A /* Photos.framework in Frameworks */,
+				A7B089901DD17928006C017A /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
