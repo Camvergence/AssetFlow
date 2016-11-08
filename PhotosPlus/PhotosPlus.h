@@ -6,7 +6,7 @@
 //  Copyright © 2016 Infofission LLC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 //! Project version number for PhotosPlus.
 FOUNDATION_EXPORT double PhotosPlusVersionNumber;
