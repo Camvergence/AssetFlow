@@ -2543,7 +2543,7 @@
 				INFOPLIST_FILE = PhotosPlus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.AssetFlow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.PhotosPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2552,7 +2552,7 @@
 		};
 		A74F972F1DA4141100969A56 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7B0897A1DD16C2F006C017A /* UniversalFramework_Base.xcconfig */;
+			baseConfigurationReference = A7B0897B1DD16C2F006C017A /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -2565,7 +2565,7 @@
 				INFOPLIST_FILE = PhotosPlus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.AssetFlow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.PhotosPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
