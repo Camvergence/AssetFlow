@@ -14,21 +14,25 @@ extension UIImageView {
     public func loadAsset(_ asset: PHAsset?,
                           version: PHImageRequestOptionsVersion = .current,
                           options: PHImageRequestOptions,
-                          imageManager: PHImageManager? = nil) {
+                          imageManager: PHImageManager? = nil,
+                          completion: @escaping () -> Void) -> PHImageRequestID {
         guard let asset = asset
             else {
                 image = nil
-                return
+                return PHInvalidImageRequestID
         }
 
         image = nil
 
         let manager = imageManager ?? PHImageManager.default()
-        manager.requestImage(for: asset,
+
+        return manager.requestImage(for: asset,
                              targetSize: bounds.size.screenScaled(),
                              contentMode: .aspectFit,
                              options: options) { [weak self] (image, info) in
             self?.image = image
+
+            completion()
         }
     }
 }
