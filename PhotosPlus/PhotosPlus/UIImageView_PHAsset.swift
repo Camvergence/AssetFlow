@@ -18,11 +18,8 @@ extension UIImageView {
                           completion: @escaping () -> Void) -> PHImageRequestID {
         guard let asset = asset
             else {
-                image = nil
                 return PHInvalidImageRequestID
         }
-
-        image = nil
 
         let manager = imageManager ?? PHImageManager.default()
 
