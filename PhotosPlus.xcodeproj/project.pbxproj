@@ -13,6 +13,23 @@
 		A714D2751DAA9F3C00F73A61 /* Panasonic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D26F1DAA9F3C00F73A61 /* Panasonic.swift */; };
 		A714D2761DAA9F3C00F73A61 /* Sony.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D2711DAA9F3C00F73A61 /* Sony.swift */; };
 		A72C3A561DC0FF1500C23105 /* Ricoh.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C3A551DC0FF1500C23105 /* Ricoh.swift */; };
+		A73CEEA91E021FE900B994E6 /* SonyAlphaILCE3000.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CEEA71E021FE900B994E6 /* SonyAlphaILCE3000.swift */; };
+		A73CEEAA1E021FE900B994E6 /* SonyAlphaILCE6000.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CEEA81E021FE900B994E6 /* SonyAlphaILCE6000.swift */; };
+		A7444C831E021CAC006BE93C /* HasselbladX1D.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C821E021CAC006BE93C /* HasselbladX1D.swift */; };
+		A7444C861E021D0F006BE93C /* Google.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C851E021D0F006BE93C /* Google.swift */; };
+		A7444C881E021D53006BE93C /* GooglePixelXL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C871E021D53006BE93C /* GooglePixelXL.swift */; };
+		A7444C8A1E021DCD006BE93C /* OlympusEM1MarkII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C891E021DCD006BE93C /* OlympusEM1MarkII.swift */; };
+		A7444C8C1E021E11006BE93C /* PanasonicLUMIXDMCFZ2500.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C8B1E021E11006BE93C /* PanasonicLUMIXDMCFZ2500.swift */; };
+		A7444C8E1E021E46006BE93C /* PanasonicLUMIXDMCLX10.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C8D1E021E46006BE93C /* PanasonicLUMIXDMCLX10.swift */; };
+		A7444C9D1E021ED3006BE93C /* SonyAlphaILCE7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C911E021ED3006BE93C /* SonyAlphaILCE7.swift */; };
+		A7444C9E1E021ED3006BE93C /* SonyAlphaILCE7II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C921E021ED3006BE93C /* SonyAlphaILCE7II.swift */; };
+		A7444CA01E021ED3006BE93C /* SonyAlphaILCE7rII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C941E021ED3006BE93C /* SonyAlphaILCE7rII.swift */; };
+		A7444CA11E021ED3006BE93C /* SonyAlphaILCE7s.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C951E021ED3006BE93C /* SonyAlphaILCE7s.swift */; };
+		A7444CA51E021ED3006BE93C /* SonyAlphaILCE5100.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C991E021ED3006BE93C /* SonyAlphaILCE5100.swift */; };
+		A7444CA71E021ED3006BE93C /* SonyAlphaILCE6300.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C9B1E021ED3006BE93C /* SonyAlphaILCE6300.swift */; };
+		A7444CA81E021ED3006BE93C /* SonyAlphaILCE6500.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444C9C1E021ED3006BE93C /* SonyAlphaILCE6500.swift */; };
+		A7444CAB1E021F13006BE93C /* YI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444CAA1E021F13006BE93C /* YI.swift */; };
+		A7444CAD1E021F3F006BE93C /* YIM1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7444CAC1E021F3F006BE93C /* YIM1.swift */; };
 		A74F49F91DAC0BA900F3F126 /* Samsung.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F49F81DAC0BA900F3F126 /* Samsung.swift */; };
 		A74F97231DA4141100969A56 /* PhotosPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74F97191DA4141100969A56 /* PhotosPlus.framework */; };
 		A74F97281DA4141100969A56 /* PhotosPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F97271DA4141100969A56 /* PhotosPlusTests.swift */; };
@@ -395,9 +412,7 @@
 		A7980A571DCEAD0900D04D87 /* SonyAlphaDSLRA900.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980A161DCEAD0900D04D87 /* SonyAlphaDSLRA900.swift */; };
 		A7980A591DCEAD0900D04D87 /* SonyAlphaILCE7R.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980A171DCEAD0900D04D87 /* SonyAlphaILCE7R.swift */; };
 		A7980A5B1DCEAD0900D04D87 /* SonyAlphaILCE7SII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980A181DCEAD0900D04D87 /* SonyAlphaILCE7SII.swift */; };
-		A7980A5D1DCEAD0900D04D87 /* SonyAlphaILCE3000.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980A191DCEAD0900D04D87 /* SonyAlphaILCE3000.swift */; };
 		A7980A5F1DCEAD0900D04D87 /* SonyAlphaILCE5000.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980A1A1DCEAD0900D04D87 /* SonyAlphaILCE5000.swift */; };
-		A7980A611DCEAD0900D04D87 /* SonyAlphaILCE6000.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980A1B1DCEAD0900D04D87 /* SonyAlphaILCE6000.swift */; };
 		A7980A631DCEAD0900D04D87 /* SonyAlphaNEX3N.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980A1C1DCEAD0900D04D87 /* SonyAlphaNEX3N.swift */; };
 		A7980A651DCEAD0900D04D87 /* SonyAlphaNEX5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980A1D1DCEAD0900D04D87 /* SonyAlphaNEX5.swift */; };
 		A7980A671DCEAD0900D04D87 /* SonyAlphaNEX5N.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980A1E1DCEAD0900D04D87 /* SonyAlphaNEX5N.swift */; };
@@ -466,12 +481,6 @@
 		A7980B0C1DCEB44C00D04D87 /* OlympusPenEPL7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B061DCEB44C00D04D87 /* OlympusPenEPL7.swift */; };
 		A7980B0E1DCEB44C00D04D87 /* OlympusTG4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B071DCEB44C00D04D87 /* OlympusTG4.swift */; };
 		A7980B111DCEB45700D04D87 /* SamsungNX1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B101DCEB45700D04D87 /* SamsungNX1.swift */; };
-		A7980B201DCEB46100D04D87 /* SonyA7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B131DCEB46100D04D87 /* SonyA7.swift */; };
-		A7980B221DCEB46100D04D87 /* SonyA7II.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B141DCEB46100D04D87 /* SonyA7II.swift */; };
-		A7980B241DCEB46100D04D87 /* Sonya7rII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B151DCEB46100D04D87 /* Sonya7rII.swift */; };
-		A7980B261DCEB46100D04D87 /* SonyA7s.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B161DCEB46100D04D87 /* SonyA7s.swift */; };
-		A7980B281DCEB46100D04D87 /* SonyA5100.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B171DCEB46100D04D87 /* SonyA5100.swift */; };
-		A7980B2A1DCEB46100D04D87 /* SonyA6300.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B181DCEB46100D04D87 /* SonyA6300.swift */; };
 		A7980B2C1DCEB46100D04D87 /* SonyAlphaSLTA68.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B191DCEB46100D04D87 /* SonyAlphaSLTA68.swift */; };
 		A7980B2E1DCEB46100D04D87 /* SonyCybershotDSCRX10III.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B1A1DCEB46100D04D87 /* SonyCybershotDSCRX10III.swift */; };
 		A7980B301DCEB46100D04D87 /* SonyCybershotRX1RII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B1B1DCEB46100D04D87 /* SonyCybershotRX1RII.swift */; };
@@ -525,6 +534,23 @@
 		A714D26F1DAA9F3C00F73A61 /* Panasonic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Panasonic.swift; sourceTree = "<group>"; };
 		A714D2711DAA9F3C00F73A61 /* Sony.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sony.swift; sourceTree = "<group>"; };
 		A72C3A551DC0FF1500C23105 /* Ricoh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ricoh.swift; sourceTree = "<group>"; };
+		A73CEEA71E021FE900B994E6 /* SonyAlphaILCE3000.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE3000.swift; sourceTree = "<group>"; };
+		A73CEEA81E021FE900B994E6 /* SonyAlphaILCE6000.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE6000.swift; sourceTree = "<group>"; };
+		A7444C821E021CAC006BE93C /* HasselbladX1D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasselbladX1D.swift; sourceTree = "<group>"; };
+		A7444C851E021D0F006BE93C /* Google.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Google.swift; sourceTree = "<group>"; };
+		A7444C871E021D53006BE93C /* GooglePixelXL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePixelXL.swift; sourceTree = "<group>"; };
+		A7444C891E021DCD006BE93C /* OlympusEM1MarkII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OlympusEM1MarkII.swift; sourceTree = "<group>"; };
+		A7444C8B1E021E11006BE93C /* PanasonicLUMIXDMCFZ2500.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanasonicLUMIXDMCFZ2500.swift; sourceTree = "<group>"; };
+		A7444C8D1E021E46006BE93C /* PanasonicLUMIXDMCLX10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanasonicLUMIXDMCLX10.swift; sourceTree = "<group>"; };
+		A7444C911E021ED3006BE93C /* SonyAlphaILCE7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE7.swift; sourceTree = "<group>"; };
+		A7444C921E021ED3006BE93C /* SonyAlphaILCE7II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE7II.swift; sourceTree = "<group>"; };
+		A7444C941E021ED3006BE93C /* SonyAlphaILCE7rII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE7rII.swift; sourceTree = "<group>"; };
+		A7444C951E021ED3006BE93C /* SonyAlphaILCE7s.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE7s.swift; sourceTree = "<group>"; };
+		A7444C991E021ED3006BE93C /* SonyAlphaILCE5100.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE5100.swift; sourceTree = "<group>"; };
+		A7444C9B1E021ED3006BE93C /* SonyAlphaILCE6300.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE6300.swift; sourceTree = "<group>"; };
+		A7444C9C1E021ED3006BE93C /* SonyAlphaILCE6500.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE6500.swift; sourceTree = "<group>"; };
+		A7444CAA1E021F13006BE93C /* YI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YI.swift; sourceTree = "<group>"; };
+		A7444CAC1E021F3F006BE93C /* YIM1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YIM1.swift; sourceTree = "<group>"; };
 		A74F49F81DAC0BA900F3F126 /* Samsung.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Samsung.swift; sourceTree = "<group>"; };
 		A74F97191DA4141100969A56 /* PhotosPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhotosPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74F971C1DA4141100969A56 /* PhotosPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotosPlus.h; sourceTree = "<group>"; };
@@ -912,9 +938,7 @@
 		A7980A161DCEAD0900D04D87 /* SonyAlphaDSLRA900.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaDSLRA900.swift; sourceTree = "<group>"; };
 		A7980A171DCEAD0900D04D87 /* SonyAlphaILCE7R.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE7R.swift; sourceTree = "<group>"; };
 		A7980A181DCEAD0900D04D87 /* SonyAlphaILCE7SII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE7SII.swift; sourceTree = "<group>"; };
-		A7980A191DCEAD0900D04D87 /* SonyAlphaILCE3000.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE3000.swift; sourceTree = "<group>"; };
 		A7980A1A1DCEAD0900D04D87 /* SonyAlphaILCE5000.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE5000.swift; sourceTree = "<group>"; };
-		A7980A1B1DCEAD0900D04D87 /* SonyAlphaILCE6000.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaILCE6000.swift; sourceTree = "<group>"; };
 		A7980A1C1DCEAD0900D04D87 /* SonyAlphaNEX3N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaNEX3N.swift; sourceTree = "<group>"; };
 		A7980A1D1DCEAD0900D04D87 /* SonyAlphaNEX5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaNEX5.swift; sourceTree = "<group>"; };
 		A7980A1E1DCEAD0900D04D87 /* SonyAlphaNEX5N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaNEX5N.swift; sourceTree = "<group>"; };
@@ -983,12 +1007,6 @@
 		A7980B061DCEB44C00D04D87 /* OlympusPenEPL7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OlympusPenEPL7.swift; sourceTree = "<group>"; };
 		A7980B071DCEB44C00D04D87 /* OlympusTG4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OlympusTG4.swift; sourceTree = "<group>"; };
 		A7980B101DCEB45700D04D87 /* SamsungNX1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamsungNX1.swift; sourceTree = "<group>"; };
-		A7980B131DCEB46100D04D87 /* SonyA7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyA7.swift; sourceTree = "<group>"; };
-		A7980B141DCEB46100D04D87 /* SonyA7II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyA7II.swift; sourceTree = "<group>"; };
-		A7980B151DCEB46100D04D87 /* Sonya7rII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sonya7rII.swift; sourceTree = "<group>"; };
-		A7980B161DCEB46100D04D87 /* SonyA7s.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyA7s.swift; sourceTree = "<group>"; };
-		A7980B171DCEB46100D04D87 /* SonyA5100.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyA5100.swift; sourceTree = "<group>"; };
-		A7980B181DCEB46100D04D87 /* SonyA6300.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyA6300.swift; sourceTree = "<group>"; };
 		A7980B191DCEB46100D04D87 /* SonyAlphaSLTA68.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyAlphaSLTA68.swift; sourceTree = "<group>"; };
 		A7980B1A1DCEB46100D04D87 /* SonyCybershotDSCRX10III.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyCybershotDSCRX10III.swift; sourceTree = "<group>"; };
 		A7980B1B1DCEB46100D04D87 /* SonyCybershotRX1RII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyCybershotRX1RII.swift; sourceTree = "<group>"; };
@@ -1056,6 +1074,7 @@
 				A784F83D1DAAEEBA004221FB /* DxO */,
 				A79806E11DCEAB8D00D04D87 /* Epson */,
 				A714D26C1DAA9F3C00F73A61 /* Fujifilm */,
+				A7444C841E021CDD006BE93C /* Google */,
 				A79806EB1DCEABC000D04D87 /* Hasselblad */,
 				A798070A1DCEAC1400D04D87 /* Kodak */,
 				A79807111DCEAC3700D04D87 /* Konica-Minolta */,
@@ -1069,6 +1088,7 @@
 				A72C3A521DC0FEEB00C23105 /* Ricoh */,
 				A74F49F71DAC0B9A00F3F126 /* Samsung */,
 				A714D2701DAA9F3C00F73A61 /* Sony */,
+				A7444CA91E021F13006BE93C /* YI */,
 			);
 			path = Cameras;
 			sourceTree = "<group>";
@@ -1205,6 +1225,7 @@
 				A7980B3A1DCEB5B400D04D87 /* PanasonicLumixDMCFZ300.swift */,
 				A79808FA1DCEACD400D04D87 /* PanasonicLUMIXDMCFZ330.swift */,
 				A79808FB1DCEACD400D04D87 /* PanasonicLUMIXDMCFZ1000.swift */,
+				A7444C8B1E021E11006BE93C /* PanasonicLUMIXDMCFZ2500.swift */,
 				A79808FC1DCEACD400D04D87 /* PanasonicLUMIXDMCG1.swift */,
 				A79808FD1DCEACD400D04D87 /* PanasonicLUMIXDMCG2.swift */,
 				A79808FE1DCEACD400D04D87 /* PanasonicLUMIXDMCG3.swift */,
@@ -1236,6 +1257,7 @@
 				A79809161DCEACD400D04D87 /* PanasonicLUMIXDMCLX3.swift */,
 				A79809171DCEACD400D04D87 /* PanasonicLUMIXDMCLX5.swift */,
 				A79809181DCEACD400D04D87 /* PanasonicLUMIXDMCLX7.swift */,
+				A7444C8D1E021E46006BE93C /* PanasonicLUMIXDMCLX10.swift */,
 				A79809191DCEACD400D04D87 /* PanasonicLUMIXDMCLX100.swift */,
 				A798091A1DCEACD400D04D87 /* PanasonicLUMIXDMCTZ60.swift */,
 				A798091B1DCEACD400D04D87 /* PanasonicLUMIXDMCTZ61.swift */,
@@ -1253,13 +1275,9 @@
 		A714D2701DAA9F3C00F73A61 /* Sony */ = {
 			isa = PBXGroup;
 			children = (
+				A73CEEA71E021FE900B994E6 /* SonyAlphaILCE3000.swift */,
+				A73CEEA81E021FE900B994E6 /* SonyAlphaILCE6000.swift */,
 				A714D2711DAA9F3C00F73A61 /* Sony.swift */,
-				A7980B131DCEB46100D04D87 /* SonyA7.swift */,
-				A7980B141DCEB46100D04D87 /* SonyA7II.swift */,
-				A7980B151DCEB46100D04D87 /* Sonya7rII.swift */,
-				A7980B161DCEB46100D04D87 /* SonyA7s.swift */,
-				A7980B171DCEB46100D04D87 /* SonyA5100.swift */,
-				A7980B181DCEB46100D04D87 /* SonyA6300.swift */,
 				A7980A081DCEAD0900D04D87 /* SonyAlphaDSLRA200.swift */,
 				A7980A091DCEAD0900D04D87 /* SonyAlphaDSLRA230.swift */,
 				A7980A0A1DCEAD0900D04D87 /* SonyAlphaDSLRA290.swift */,
@@ -1275,11 +1293,16 @@
 				A7980A141DCEAD0900D04D87 /* SonyAlphaDSLRA580.swift */,
 				A7980A151DCEAD0900D04D87 /* SonyAlphaDSLRA850.swift */,
 				A7980A161DCEAD0900D04D87 /* SonyAlphaDSLRA900.swift */,
+				A7444C911E021ED3006BE93C /* SonyAlphaILCE7.swift */,
+				A7444C921E021ED3006BE93C /* SonyAlphaILCE7II.swift */,
 				A7980A171DCEAD0900D04D87 /* SonyAlphaILCE7R.swift */,
+				A7444C941E021ED3006BE93C /* SonyAlphaILCE7rII.swift */,
+				A7444C951E021ED3006BE93C /* SonyAlphaILCE7s.swift */,
 				A7980A181DCEAD0900D04D87 /* SonyAlphaILCE7SII.swift */,
-				A7980A191DCEAD0900D04D87 /* SonyAlphaILCE3000.swift */,
 				A7980A1A1DCEAD0900D04D87 /* SonyAlphaILCE5000.swift */,
-				A7980A1B1DCEAD0900D04D87 /* SonyAlphaILCE6000.swift */,
+				A7444C991E021ED3006BE93C /* SonyAlphaILCE5100.swift */,
+				A7444C9B1E021ED3006BE93C /* SonyAlphaILCE6300.swift */,
+				A7444C9C1E021ED3006BE93C /* SonyAlphaILCE6500.swift */,
 				A7980A1C1DCEAD0900D04D87 /* SonyAlphaNEX3N.swift */,
 				A7980A1D1DCEAD0900D04D87 /* SonyAlphaNEX5.swift */,
 				A7980A1E1DCEAD0900D04D87 /* SonyAlphaNEX5N.swift */,
@@ -1329,6 +1352,24 @@
 				A7980B551DCEB5E000D04D87 /* RicohGRII.swift */,
 			);
 			path = Ricoh;
+			sourceTree = "<group>";
+		};
+		A7444C841E021CDD006BE93C /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				A7444C851E021D0F006BE93C /* Google.swift */,
+				A7444C871E021D53006BE93C /* GooglePixelXL.swift */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		A7444CA91E021F13006BE93C /* YI */ = {
+			isa = PBXGroup;
+			children = (
+				A7444CAA1E021F13006BE93C /* YI.swift */,
+				A7444CAC1E021F3F006BE93C /* YIM1.swift */,
+			);
+			path = YI;
 			sourceTree = "<group>";
 		};
 		A74F49F71DAC0B9A00F3F126 /* Samsung */ = {
@@ -1573,6 +1614,7 @@
 				A79808881DCEACC600D04D87 /* OlympusE600.swift */,
 				A79808891DCEACC600D04D87 /* OlympusE620.swift */,
 				A7980B041DCEB44C00D04D87 /* OlympusEM1.swift */,
+				A7444C891E021DCD006BE93C /* OlympusEM1MarkII.swift */,
 				A7980B051DCEB44C00D04D87 /* OlympusEP5.swift */,
 				A798088A1DCEACC600D04D87 /* OlympusEVOLTE420.swift */,
 				A798088B1DCEACC600D04D87 /* OlympusEVOLTE520.swift */,
@@ -1667,6 +1709,7 @@
 				A79806F31DCEAC0F00D04D87 /* HasselbladH4D40.swift */,
 				A79806F41DCEAC0F00D04D87 /* HasselbladH5D50c.swift */,
 				A79806F51DCEAC0F00D04D87 /* HasselbladLunar.swift */,
+				A7444C821E021CAC006BE93C /* HasselbladX1D.swift */,
 			);
 			path = Hasselblad;
 			sourceTree = "<group>";
@@ -1913,6 +1956,7 @@
 				A784F8451DAAEF5F004221FB /* DxO.swift in Sources */,
 				A714D2741DAA9F3C00F73A61 /* Fujifilm.swift in Sources */,
 				A784F84C1DAAF04E004221FB /* Leica.swift in Sources */,
+				A7444CAB1E021F13006BE93C /* YI.swift in Sources */,
 				A784F8521DAAF178004221FB /* Nikon.swift in Sources */,
 				A714D2751DAA9F3C00F73A61 /* Panasonic.swift in Sources */,
 				A784F8621DAAF3C3004221FB /* Pentax.swift in Sources */,
@@ -1923,10 +1967,10 @@
 				A714D2721DAA9F3C00F73A61 /* Cameras.swift in Sources */,
 				A798096D1DCEACD400D04D87 /* PanasonicLUMIXDMCLX5.swift in Sources */,
 				A79808191DCEACB100D04D87 /* NikonCOOLPIXP7800.swift in Sources */,
+				A73CEEA91E021FE900B994E6 /* SonyAlphaILCE3000.swift in Sources */,
 				A7980AD31DCEB3EE00D04D87 /* CanonEOS5DSR.swift in Sources */,
 				A7980AED1DCEB40D00D04D87 /* FujifilmXPro2.swift in Sources */,
 				A7980B001DCEB44200D04D87 /* NikonD750.swift in Sources */,
-				A7980B261DCEB46100D04D87 /* SonyA7s.swift in Sources */,
 				A79807F71DCEACB100D04D87 /* Nikon1AW1.swift in Sources */,
 				A79808B11DCEACC600D04D87 /* OlympusE300.swift in Sources */,
 				A7980B561DCEB5E000D04D87 /* RicohGRII.swift in Sources */,
@@ -1937,7 +1981,6 @@
 				A79807FD1DCEACB100D04D87 /* Nikon1J3.swift in Sources */,
 				A79809EE1DCEACFB00D04D87 /* SamsungNX5.swift in Sources */,
 				A79809751DCEACD400D04D87 /* PanasonicLUMIXDMCTZ61.swift in Sources */,
-				A7980B281DCEB46100D04D87 /* SonyA5100.swift in Sources */,
 				A798084B1DCEACB100D04D87 /* NikonD600.swift in Sources */,
 				A79807871DCEAC8000D04D87 /* LeicaDLux5.swift in Sources */,
 				A7980AEB1DCEB40D00D04D87 /* FujifilmXA2.swift in Sources */,
@@ -1953,6 +1996,7 @@
 				A7980AC71DCEB25800D04D87 /* CanonEOSRebelSL1.swift in Sources */,
 				A7980AD91DCEB3EE00D04D87 /* CanonPowerShotG5X.swift in Sources */,
 				A7980ABB1DCEB21100D04D87 /* Canon6D.swift in Sources */,
+				A7444CA01E021ED3006BE93C /* SonyAlphaILCE7rII.swift in Sources */,
 				A79806C71DCEAB8300D04D87 /* FujifilmFinePixX100.swift in Sources */,
 				A79808751DCEACB100D04D87 /* NikonE8700.swift in Sources */,
 				A7980A991DCEAD0A00D04D87 /* SonyDSCF828.swift in Sources */,
@@ -1960,6 +2004,7 @@
 				A7980AF31DCEB43600D04D87 /* LeicaSLTyp601.swift in Sources */,
 				A79806631DCEAB4900D04D87 /* CanonEOSM.swift in Sources */,
 				A79806AF1DCEAB7400D04D87 /* DxOOne.swift in Sources */,
+				A7444CA81E021ED3006BE93C /* SonyAlphaILCE6500.swift in Sources */,
 				A79808491DCEACB100D04D87 /* NikonD300S.swift in Sources */,
 				A79809B61DCEACDD00D04D87 /* PentaxK20D.swift in Sources */,
 				A79809331DCEACD400D04D87 /* PanasonicLUMIXDMCFZ330.swift in Sources */,
@@ -1996,10 +2041,10 @@
 				A7980A451DCEAD0900D04D87 /* SonyAlphaDSLRA350.swift in Sources */,
 				A79809EC1DCEACFB00D04D87 /* SamsungGX20.swift in Sources */,
 				A79806FE1DCEAC0F00D04D87 /* HasselbladH3D31.swift in Sources */,
+				A7444C8A1E021DCD006BE93C /* OlympusEM1MarkII.swift in Sources */,
 				A79808EB1DCEACC600D04D87 /* OlympusSTYLUSSH2.swift in Sources */,
 				A798079D1DCEAC8000D04D87 /* LeicaVLux(Typ114).swift in Sources */,
 				A79808211DCEACB100D04D87 /* NikonD2H.swift in Sources */,
-				A7980B221DCEB46100D04D87 /* SonyA7II.swift in Sources */,
 				A79808A71DCEACC600D04D87 /* OlympusC8080WZ.swift in Sources */,
 				A79809B21DCEACDD00D04D87 /* PentaxK7.swift in Sources */,
 				A79809491DCEACD400D04D87 /* PanasonicLUMIXDMCGF3.swift in Sources */,
@@ -2036,6 +2081,7 @@
 				A798094B1DCEACD400D04D87 /* PanasonicLUMIXDMCGF5.swift in Sources */,
 				A79808131DCEACB100D04D87 /* NikonCOOLPIXP7000.swift in Sources */,
 				A79808371DCEACB100D04D87 /* NikonD50.swift in Sources */,
+				A7444C9E1E021ED3006BE93C /* SonyAlphaILCE7II.swift in Sources */,
 				A7980AF11DCEB43600D04D87 /* LeicaQ.swift in Sources */,
 				A79808091DCEACB100D04D87 /* Nikon1V3.swift in Sources */,
 				A79809471DCEACD400D04D87 /* PanasonicLUMIXDMCGF2.swift in Sources */,
@@ -2077,6 +2123,7 @@
 				A79807B21DCEAC9F00D04D87 /* MinoltaDiMAGEA1.swift in Sources */,
 				A79806F81DCEAC0F00D04D87 /* HasselbladCF39.swift in Sources */,
 				A79806AC1DCEAB6500D04D87 /* DJIMavicPro.swift in Sources */,
+				A7444CA51E021ED3006BE93C /* SonyAlphaILCE5100.swift in Sources */,
 				A79809E81DCEACFB00D04D87 /* SamsungGX1S.swift in Sources */,
 				A79808EF1DCEACC600D04D87 /* OlympusXZ1.swift in Sources */,
 				A79809AA1DCEACDD00D04D87 /* PentaxK3.swift in Sources */,
@@ -2113,6 +2160,7 @@
 				A7980B0E1DCEB44C00D04D87 /* OlympusTG4.swift in Sources */,
 				A7980AFC1DCEB44200D04D87 /* NikonD5.swift in Sources */,
 				A7980B2E1DCEB46100D04D87 /* SonyCybershotDSCRX10III.swift in Sources */,
+				A7444C8C1E021E11006BE93C /* PanasonicLUMIXDMCFZ2500.swift in Sources */,
 				A7980B4D1DCEB5C000D04D87 /* PentaxK1.swift in Sources */,
 				A79806491DCEAB4900D04D87 /* CanonEOS20D.swift in Sources */,
 				A79806FC1DCEAC0F00D04D87 /* HasselbladCFV50c.swift in Sources */,
@@ -2136,20 +2184,21 @@
 				A798062F1DCEAB4900D04D87 /* CanonEOS1DMarkII.swift in Sources */,
 				A79806531DCEAB4900D04D87 /* CanonEOS70D.swift in Sources */,
 				A79809691DCEACD400D04D87 /* PanasonicLUMIXDMCLX2.swift in Sources */,
-				A7980A611DCEAD0900D04D87 /* SonyAlphaILCE6000.swift in Sources */,
 				A79807201DCEAC5300D04D87 /* KonicaMinoltaDiMAGEA200.swift in Sources */,
+				A7444C861E021D0F006BE93C /* Google.swift in Sources */,
 				A798065B1DCEAB4900D04D87 /* CanonEOSDigitalRebelXS.swift in Sources */,
 				A79807A91DCEAC8000D04D87 /* LeicaX2.swift in Sources */,
 				A79807001DCEAC0F00D04D87 /* HasselbladH3D31II.swift in Sources */,
 				A798081B1DCEACB100D04D87 /* NikonD1.swift in Sources */,
-				A7980B2A1DCEB46100D04D87 /* SonyA6300.swift in Sources */,
 				A7980B021DCEB44200D04D87 /* NikonD3400.swift in Sources */,
 				A79806351DCEAB4900D04D87 /* CanonEOS1DMarkIV.swift in Sources */,
 				A7980AD11DCEB3EE00D04D87 /* CanonEOS1DXMarkII.swift in Sources */,
 				A7980A6B1DCEAD0900D04D87 /* SonyAlphaNEX5T.swift in Sources */,
 				A798078F1DCEAC8000D04D87 /* LeicaM8.swift in Sources */,
+				A7444C831E021CAC006BE93C /* HasselbladX1D.swift in Sources */,
 				A798084F1DCEACB100D04D87 /* NikonD700.swift in Sources */,
 				A79806A31DCEAB4900D04D87 /* CanonPowerShotS120.swift in Sources */,
+				A7444CAD1E021F3F006BE93C /* YIM1.swift in Sources */,
 				A79808111DCEACB100D04D87 /* NikonCOOLPIXP6000.swift in Sources */,
 				A79809CA1DCEACDD00D04D87 /* PentaxKS1.swift in Sources */,
 				A798083D1DCEACB100D04D87 /* NikonD70s.swift in Sources */,
@@ -2158,6 +2207,7 @@
 				A79808E91DCEACC600D04D87 /* OlympusSTYLUS1.swift in Sources */,
 				A798066B1DCEAB4900D04D87 /* CanonEOSRebelT1i.swift in Sources */,
 				A79809CE1DCEACDD00D04D87 /* PentaxMX1.swift in Sources */,
+				A7444CA71E021ED3006BE93C /* SonyAlphaILCE6300.swift in Sources */,
 				A798086B1DCEACB100D04D87 /* NikonD7000.swift in Sources */,
 				A79809C21DCEACDD00D04D87 /* PentaxK200D.swift in Sources */,
 				A798063F1DCEAB4900D04D87 /* CanonEOS5DMarkII.swift in Sources */,
@@ -2173,7 +2223,6 @@
 				A798077F1DCEAC8000D04D87 /* LeicaDLux(Typ109).swift in Sources */,
 				A79808E51DCEACC600D04D87 /* OlympusPENLiteEPL6.swift in Sources */,
 				A798081F1DCEACB100D04D87 /* NikonD1X.swift in Sources */,
-				A7980B241DCEB46100D04D87 /* Sonya7rII.swift in Sources */,
 				A79806331DCEAB4900D04D87 /* CanonEOS1DMarkIIN.swift in Sources */,
 				A7980A061DCEACFB00D04D87 /* SamsungNX2000.swift in Sources */,
 				A79806851DCEAB4900D04D87 /* CanonPowerShotG6.swift in Sources */,
@@ -2181,7 +2230,6 @@
 				A79809251DCEACD400D04D87 /* PanasonicLUMIXDMCFZ38.swift in Sources */,
 				A798094D1DCEACD400D04D87 /* PanasonicLUMIXDMCGF6.swift in Sources */,
 				A798078D1DCEAC8000D04D87 /* LeicaM8.2.swift in Sources */,
-				A7980B201DCEB46100D04D87 /* SonyA7.swift in Sources */,
 				A798069B1DCEAB4900D04D87 /* CanonPowerShotS90.swift in Sources */,
 				A79808C71DCEACC600D04D87 /* OlympusOMDEM5.swift in Sources */,
 				A79807971DCEAC8000D04D87 /* LeicaMMonochrom(Typ246).swift in Sources */,
@@ -2193,7 +2241,6 @@
 				A79806F61DCEAC0F00D04D87 /* HasselbladCF22.swift in Sources */,
 				A79808471DCEACB100D04D87 /* NikonD300.swift in Sources */,
 				A798093B1DCEACD400D04D87 /* PanasonicLUMIXDMCG3.swift in Sources */,
-				A7980A5D1DCEAD0900D04D87 /* SonyAlphaILCE3000.swift in Sources */,
 				A7980A531DCEAD0900D04D87 /* SonyAlphaDSLRA580.swift in Sources */,
 				A79806871DCEAB4900D04D87 /* CanonPowerShotG7X.swift in Sources */,
 				A79806571DCEAB4900D04D87 /* CanonEOSD60.swift in Sources */,
@@ -2202,6 +2249,7 @@
 				A798063B1DCEAB4900D04D87 /* CanonEOS1DsMarkIII.swift in Sources */,
 				A7980A4B1DCEAD0900D04D87 /* SonyAlphaDSLRA450.swift in Sources */,
 				A79809431DCEACD400D04D87 /* PanasonicLUMIXDMCG10.swift in Sources */,
+				A73CEEAA1E021FE900B994E6 /* SonyAlphaILCE6000.swift in Sources */,
 				A798074E1DCEAC6D00D04D87 /* LeafAptus65S.swift in Sources */,
 				A79809651DCEACD400D04D87 /* PanasonicLUMIXDMCLF1.swift in Sources */,
 				A79809FA1DCEACFB00D04D87 /* SamsungNX200.swift in Sources */,
@@ -2235,6 +2283,7 @@
 				A798092D1DCEACD400D04D87 /* PanasonicLUMIXDMCFZ100.swift in Sources */,
 				A79808271DCEACB100D04D87 /* NikonD2Xs.swift in Sources */,
 				A79806651DCEAB4900D04D87 /* CanonEOSM2.swift in Sources */,
+				A7444C881E021D53006BE93C /* GooglePixelXL.swift in Sources */,
 				A7980AC91DCEB25800D04D87 /* CanonPowerShotG9X.swift in Sources */,
 				A7980A971DCEAD0A00D04D87 /* SonyCybershotDSCRX100IV.swift in Sources */,
 				A79808BB1DCEACC600D04D87 /* OlympusE500.swift in Sources */,
@@ -2257,6 +2306,7 @@
 				A798064F1DCEAB4900D04D87 /* CanonEOS50D.swift in Sources */,
 				A7980B411DCEB5B400D04D87 /* PanasonicLumixDMCGX7.swift in Sources */,
 				A79808B91DCEACC600D04D87 /* OlympusE450.swift in Sources */,
+				A7444CA11E021ED3006BE93C /* SonyAlphaILCE7s.swift in Sources */,
 				A79809731DCEACD400D04D87 /* PanasonicLUMIXDMCTZ60.swift in Sources */,
 				A7980B471DCEB5B400D04D87 /* PanasonicLumixZS60.swift in Sources */,
 				A79807281DCEAC5300D04D87 /* KonicaMinoltaMAXXUM7D.swift in Sources */,
@@ -2266,6 +2316,7 @@
 				A79807461DCEAC6D00D04D87 /* LeafAptus17.swift in Sources */,
 				A798097F1DCEACD400D04D87 /* PanasonicLUMIXDMCZS100.swift in Sources */,
 				A79808391DCEACB100D04D87 /* NikonD60.swift in Sources */,
+				A7444C9D1E021ED3006BE93C /* SonyAlphaILCE7.swift in Sources */,
 				A798079F1DCEAC8000D04D87 /* LeicaVLux1.swift in Sources */,
 				A7980B4F1DCEB5C000D04D87 /* PentaxK3II.swift in Sources */,
 				A79808511DCEACB100D04D87 /* NikonD800.swift in Sources */,
@@ -2310,6 +2361,7 @@
 				A79808CF1DCEACC600D04D87 /* OlympusPENEP1.swift in Sources */,
 				A798093F1DCEACD400D04D87 /* PanasonicLUMIXDMCG6.swift in Sources */,
 				A79807AD1DCEAC8000D04D87 /* LeicaXVario(Typ107).swift in Sources */,
+				A7444C8E1E021E46006BE93C /* PanasonicLUMIXDMCLX10.swift in Sources */,
 				A79808311DCEACB100D04D87 /* NikonD4S.swift in Sources */,
 				A79808E11DCEACC600D04D87 /* OlympusPENEPM2.swift in Sources */,
 				A798095D1DCEACD400D04D87 /* PanasonicLUMIXDMCGM5.swift in Sources */,
