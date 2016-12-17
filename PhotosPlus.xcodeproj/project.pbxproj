@@ -501,9 +501,6 @@
 		A7B0898C1DD17911006C017A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898B1DD17911006C017A /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A7B0898E1DD17918006C017A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898D1DD17918006C017A /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A7B089901DD17928006C017A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898F1DD17928006C017A /* MobileCoreServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		A7B089991DD1AA09006C017A /* UniversalFramework_Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7B089961DD1AA08006C017A /* UniversalFramework_Base.xcconfig */; };
-		A7B0899A1DD1AA09006C017A /* UniversalFramework_Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7B089971DD1AA08006C017A /* UniversalFramework_Framework.xcconfig */; };
-		A7B0899B1DD1AA09006C017A /* UniversalFramework_Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A7B089981DD1AA08006C017A /* UniversalFramework_Test.xcconfig */; };
 		A7BFD22F1DAFCECB00BB6349 /* UIImageView_PHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */; };
 		A7BFD2331DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2311DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift */; };
 		A7BFD23B1DAFD06600BB6349 /* CGSize_ScreenScaled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD23A1DAFD06600BB6349 /* CGSize_ScreenScaled.swift */; };
@@ -1869,7 +1866,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Infofission LLC";
 				TargetAttributes = {
 					A74F97181DA4141100969A56 = {
@@ -1913,9 +1910,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7B0899B1DD1AA09006C017A /* UniversalFramework_Test.xcconfig in Resources */,
-				A7B0899A1DD1AA09006C017A /* UniversalFramework_Framework.xcconfig in Resources */,
-				A7B089991DD1AA09006C017A /* UniversalFramework_Base.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2592,7 +2586,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -2601,7 +2595,7 @@
 				INFOPLIST_FILE = PhotosPlus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.PhotosPlus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.libraryloupe.PhotosPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2614,7 +2608,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -2623,7 +2617,7 @@
 				INFOPLIST_FILE = PhotosPlus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.PhotosPlus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.libraryloupe.PhotosPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -2665,7 +2659,7 @@
 				DEVELOPMENT_TEAM = HNGG8UGR9A;
 				INFOPLIST_FILE = Example1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.PhotosPlus.Example1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.librarpyloupe.PhotosPlus.Example1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -2678,7 +2672,7 @@
 				DEVELOPMENT_TEAM = HNGG8UGR9A;
 				INFOPLIST_FILE = Example1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.PhotosPlus.Example1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.librarpyloupe.PhotosPlus.Example1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
