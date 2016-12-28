@@ -503,8 +503,8 @@
 		A7B089901DD17928006C017A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898F1DD17928006C017A /* MobileCoreServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A7BFD22F1DAFCECB00BB6349 /* UIImageView_PHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */; };
 		A7BFD2331DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2311DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift */; };
-		A7BFD23B1DAFD06600BB6349 /* CGSize_ScreenScaled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD23A1DAFD06600BB6349 /* CGSize_ScreenScaled.swift */; };
 		A7BFD2471DAFD3D700BB6349 /* PhotosPlusUti.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2461DAFD3D700BB6349 /* PhotosPlusUti.swift */; };
+		A7C7325D1E1457AA00B38A5D /* CGSize_ScreenScaled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7325C1E1457AA00B38A5D /* CGSize_ScreenScaled.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1029,8 +1029,8 @@
 		A7B089981DD1AA08006C017A /* UniversalFramework_Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Test.xcconfig; sourceTree = "<group>"; };
 		A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView_PHAsset.swift; sourceTree = "<group>"; };
 		A7BFD2311DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHAsset_PhotosPlus.swift; sourceTree = "<group>"; };
-		A7BFD23A1DAFD06600BB6349 /* CGSize_ScreenScaled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize_ScreenScaled.swift; sourceTree = "<group>"; };
 		A7BFD2461DAFD3D700BB6349 /* PhotosPlusUti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosPlusUti.swift; sourceTree = "<group>"; };
+		A7C7325C1E1457AA00B38A5D /* CGSize_ScreenScaled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize_ScreenScaled.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1423,11 +1423,10 @@
 		A74F971B1DA4141100969A56 /* PhotosPlus */ = {
 			isa = PBXGroup;
 			children = (
+				A74F971C1DA4141100969A56 /* PhotosPlus.h */,
 				A7BFD2461DAFD3D700BB6349 /* PhotosPlusUti.swift */,
-				A7BFD23A1DAFD06600BB6349 /* CGSize_ScreenScaled.swift */,
 				A7BFD22D1DAFCE7D00BB6349 /* PhotosPlus */,
 				A714D2681DAA9F3C00F73A61 /* Cameras */,
-				A74F971C1DA4141100969A56 /* PhotosPlus.h */,
 				A74F971D1DA4141100969A56 /* Info.plist */,
 			);
 			path = PhotosPlus;
@@ -1785,6 +1784,7 @@
 		A7BFD22D1DAFCE7D00BB6349 /* PhotosPlus */ = {
 			isa = PBXGroup;
 			children = (
+				A7C7325C1E1457AA00B38A5D /* CGSize_ScreenScaled.swift */,
 				A7BFD2311DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift */,
 				A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */,
 			);
@@ -1942,7 +1942,6 @@
 				A7980AA81DCEB00800D04D87 /* Leaf.swift in Sources */,
 				A7980AB41DCEB07D00D04D87 /* Epson.swift in Sources */,
 				A7980AA51DCEAFD400D04D87 /* Minolta.swift in Sources */,
-				A7BFD23B1DAFD06600BB6349 /* CGSize_ScreenScaled.swift in Sources */,
 				A7980AAE1DCEB04700D04D87 /* Kodak.swift in Sources */,
 				A7980AB11DCEB05900D04D87 /* Hasselblad.swift in Sources */,
 				A7BFD2471DAFD3D700BB6349 /* PhotosPlusUti.swift in Sources */,
@@ -2174,6 +2173,7 @@
 				A79809CC1DCEACDD00D04D87 /* PentaxKx.swift in Sources */,
 				A798066F1DCEAB4900D04D87 /* CanonEOSRebelT3.swift in Sources */,
 				A7980B081DCEB44C00D04D87 /* OlympusEM1.swift in Sources */,
+				A7C7325D1E1457AA00B38A5D /* CGSize_ScreenScaled.swift in Sources */,
 				A7980AD51DCEB3EE00D04D87 /* CanonEOS80D.swift in Sources */,
 				A798062F1DCEAB4900D04D87 /* CanonEOS1DMarkII.swift in Sources */,
 				A79806531DCEAB4900D04D87 /* CanonEOS70D.swift in Sources */,
