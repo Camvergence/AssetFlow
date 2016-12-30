@@ -2,6 +2,9 @@
 engines:
   fixme:
     enabled: true
+  tailor:
+    enabled: true
 ratings:
-  paths: []
+  paths:
+  - "**.swift"
 exclude_paths: []
