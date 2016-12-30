@@ -14,4 +14,4 @@ extension Cameras.Manufacturers.Google {
     }
 }
 
-public typealias GooglePixelXL = Cameras.Manufacturers.Google
+public typealias GooglePixelXL = Cameras.Manufacturers.Google.PixelXL
