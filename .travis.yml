@@ -2,7 +2,7 @@ os:
   - osx
 language: objective-c
 xcode_project: PhotosPlus.xcodeproj
-xcode_scheme: PhotosPlus
+xcode_scheme: PhotosPlus.xcscheme
 osx_image: xcode8.2
 addons:
   code_climate:
