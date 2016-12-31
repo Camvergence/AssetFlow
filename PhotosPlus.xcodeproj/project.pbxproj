@@ -1895,6 +1895,7 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = HNGG8UGR9A;
 						ProvisioningStyle = Automatic;
+						TestTargetID = A74F97461DA475E700969A56;
 					};
 					A74F97461DA475E700969A56 = {
 						CreatedOnToolsVersion = 8.0;
@@ -2659,6 +2660,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.PhotosPlusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example1.app/Example1";
 			};
 			name = Debug;
 		};
@@ -2673,6 +2675,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.PhotosPlusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example1.app/Example1";
 			};
 			name = Release;
 		};
