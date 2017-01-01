@@ -505,6 +505,7 @@
 		A7BFD2331DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2311DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift */; };
 		A7BFD2471DAFD3D700BB6349 /* PhotosPlusUti.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2461DAFD3D700BB6349 /* PhotosPlusUti.swift */; };
 		A7C7325D1E1457AA00B38A5D /* CGSize_ScreenScaled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7325C1E1457AA00B38A5D /* CGSize_ScreenScaled.swift */; };
+		A7F1B4FE1E198B16004B68D3 /* PHAssetResourceType_CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F1B4FD1E198B16004B68D3 /* PHAssetResourceType_CustomStringConvertible.swift */; };
 		A7F74CB61E14981600FC9C7F /* DateFormatter_ExifDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F74CB51E14981600FC9C7F /* DateFormatter_ExifDateFormatter.swift */; };
 		A7F74CB81E14985C00FC9C7F /* IdentifierTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F74CB71E14985C00FC9C7F /* IdentifierTranslator.swift */; };
 		A7F74CBA1E1498B400FC9C7F /* OperatingSystemVersion_BasicChecks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F74CB91E1498B400FC9C7F /* OperatingSystemVersion_BasicChecks.swift */; };
@@ -1037,6 +1038,7 @@
 		A7BFD2311DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHAsset_PhotosPlus.swift; sourceTree = "<group>"; };
 		A7BFD2461DAFD3D700BB6349 /* PhotosPlusUti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosPlusUti.swift; sourceTree = "<group>"; };
 		A7C7325C1E1457AA00B38A5D /* CGSize_ScreenScaled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize_ScreenScaled.swift; sourceTree = "<group>"; };
+		A7F1B4FD1E198B16004B68D3 /* PHAssetResourceType_CustomStringConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHAssetResourceType_CustomStringConvertible.swift; sourceTree = "<group>"; };
 		A7F74CB51E14981600FC9C7F /* DateFormatter_ExifDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter_ExifDateFormatter.swift; sourceTree = "<group>"; };
 		A7F74CB71E14985C00FC9C7F /* IdentifierTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifierTranslator.swift; sourceTree = "<group>"; };
 		A7F74CB91E1498B400FC9C7F /* OperatingSystemVersion_BasicChecks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatingSystemVersion_BasicChecks.swift; sourceTree = "<group>"; };
@@ -1802,6 +1804,7 @@
 				A7F74CB91E1498B400FC9C7F /* OperatingSystemVersion_BasicChecks.swift */,
 				A7F74CBB1E149E7200FC9C7F /* PHAsset_PhotoResourceCategorization.swift */,
 				A7BFD2311DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift */,
+				A7F1B4FD1E198B16004B68D3 /* PHAssetResourceType_CustomStringConvertible.swift */,
 				A7F74CBF1E149FF300FC9C7F /* PhotoResourceCategorization.swift */,
 				A7F74CBD1E149EBF00FC9C7F /* UIImage_Resize.swift */,
 				A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */,
@@ -2222,6 +2225,7 @@
 				A798083D1DCEACB100D04D87 /* NikonD70s.swift in Sources */,
 				A7980A691DCEAD0900D04D87 /* SonyAlphaNEX5R.swift in Sources */,
 				A79808ED1DCEACC600D04D87 /* OlympusSTYLUSXZ2.swift in Sources */,
+				A7F1B4FE1E198B16004B68D3 /* PHAssetResourceType_CustomStringConvertible.swift in Sources */,
 				A79808E91DCEACC600D04D87 /* OlympusSTYLUS1.swift in Sources */,
 				A798066B1DCEAB4900D04D87 /* CanonEOSRebelT1i.swift in Sources */,
 				A79809CE1DCEACDD00D04D87 /* PentaxMX1.swift in Sources */,
