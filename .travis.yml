@@ -2,7 +2,7 @@ os:
   - osx
 language: objective-c
 osx_image: xcode8.2
-script: xctool build test -enableCodeCoverage YES -project PhotosPlus.xcodeproj -scheme PhotosPlus  -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.1'
+script: xctool test -enableCodeCoverage YES -project PhotosPlus.xcodeproj -scheme PhotosPlus  -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.1'
 addons:
   code_climate:
     repo_token: a2f30ebe076cabba145d2afce95cf6e69474ba581f959c7168acfec50c9b8488
