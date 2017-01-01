@@ -1,7 +1,7 @@
 //
 //  Asset Flow, https://github.com/LibraryLoupe/AssetFlow
 //
-//  Copyright (c) 2016-2016 Matt Klosterman and contributors. All rights reserved.
+//  Copyright (c) 2016-2017 Matt Klosterman and contributors. All rights reserved.
 //
 
 import Foundation
