@@ -2,7 +2,8 @@ os:
   - osx
 language: objective-c
 osx_image: xcode8.2
-script: xcodebuild build test -project PhotosPlus.xcodeproj -scheme PhotosPlus -sdk iphonesimulator
+script: xcodebuild -project PhotosPlus.xcodeproj -scheme PhotosPlus -sdk iphonesimulator ONLY_ARCHIVE_ARCH=NO
+script: xcodebuild test -project PhotosPlus.xcodeproj -scheme PhotosPlus -sdk iphonesimulator ONLY_ARCHIVE_ARCH=NO
 addons:
   code_climate:
     repo_token: a2f30ebe076cabba145d2afce95cf6e69474ba581f959c7168acfec50c9b8488
