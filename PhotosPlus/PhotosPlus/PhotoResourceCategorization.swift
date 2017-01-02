@@ -6,7 +6,7 @@
 
 import Foundation
 
-@objc public enum PhotoResourceCategorization : UInt {
+@objc public enum PhotoResourceCategorization: UInt {
     case unknown
     case jpeg
     case raw
