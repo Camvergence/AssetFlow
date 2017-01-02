@@ -26,7 +26,7 @@ extension UIImageView {
         return manager.requestImage(for: asset,
                              targetSize: bounds.size.screenScaled(),
                              contentMode: .aspectFit,
-                             options: options) { [weak self] (image, info) in
+                             options: options) { [weak self] (image, _) in
             self?.image = image
 
             completion()

@@ -9,21 +9,21 @@ import Foundation
 public class IdentifierTranslator {
     static let identifierMappings = [
         // General
-        "public.jpeg" : "JPEG",
-        "public.png" : "PNG",
+        "public.jpeg": "JPEG",
+        "public.png": "PNG",
 
         // Photo Apps
-        "com.apple.photos" : "Apple Photos Mac",
-        "com.apple.mobileslideshow" : "Apple Photos",
+        "com.apple.photos": "Apple Photos Mac",
+        "com.apple.mobileslideshow": "Apple Photos",
 
         // RAW formats
-        "com.olympus.raw-image" : "Olympus RAW",
-        "com.adobe.raw-image" : "Adobe DNG",
+        "com.olympus.raw-image": "Olympus RAW",
+        "com.adobe.raw-image": "Adobe DNG",
 
-        "public.video" : "Video",
-        "public.audio" : "Audio",
-        "public.image" : "Image",
-        "public.mpeg-4" : "MP4 Video",
+        "public.video": "Video",
+        "public.audio": "Audio",
+        "public.image": "Image",
+        "public.mpeg-4": "MP4 Video",
 
     ]
 }

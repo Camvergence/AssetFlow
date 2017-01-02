@@ -6,7 +6,6 @@
 
 import Foundation
 
-
 extension Cameras.Manufacturers.Olympus {
     public struct PENEPL7: CameraModel {
         public init() {}

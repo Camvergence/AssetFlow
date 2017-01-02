@@ -6,7 +6,6 @@
 
 import Foundation
 
-
 extension Cameras.Manufacturers.Olympus {
     public struct TG4: CameraModel {
         public init() {}
