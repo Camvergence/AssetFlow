@@ -25,6 +25,8 @@ public class IdentifierTranslator {
         "public.image": "Image",
         "public.mpeg-4": "MP4 Video",
 
+        "public.heic": "HEIC",
+
     ]
 }
 
