@@ -5,6 +5,8 @@
 //
 
 import Foundation
+
+#if os(iOS) || os(tvOS)
 import Photos
 
 extension PHAsset {
@@ -23,3 +25,4 @@ extension PHAsset {
         }
     }
 }
+#endif

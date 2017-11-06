@@ -6,6 +6,8 @@
 //
 
 import Foundation
+
+#if os(iOS) || os(tvOS)
 import Photos
 
 extension PHAssetResourceType : CustomStringConvertible {
@@ -36,3 +38,4 @@ extension PHAssetResourceType : CustomStringConvertible {
         }
     }
 }
+#endif

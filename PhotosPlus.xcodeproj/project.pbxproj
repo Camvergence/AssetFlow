@@ -499,7 +499,6 @@
 		A7980B531DCEB5C000D04D87 /* PentaxKS2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B4C1DCEB5C000D04D87 /* PentaxKS2.swift */; };
 		A7980B561DCEB5E000D04D87 /* RicohGRII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B551DCEB5E000D04D87 /* RicohGRII.swift */; };
 		A7B0898C1DD17911006C017A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898B1DD17911006C017A /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		A7B0898E1DD17918006C017A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898D1DD17918006C017A /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A7B089901DD17928006C017A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898F1DD17928006C017A /* MobileCoreServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A7BFD22F1DAFCECB00BB6349 /* UIImageView_PHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */; };
 		A7BFD2331DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2311DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift */; };
@@ -1053,7 +1052,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B0898C1DD17911006C017A /* UIKit.framework in Frameworks */,
-				A7B0898E1DD17918006C017A /* Photos.framework in Frameworks */,
 				A7B089901DD17928006C017A /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2624,6 +2622,22 @@
 				INFOPLIST_FILE = PhotosPlus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				"OTHER_LDFLAGS[sdk=appletvos*]" = (
+					"-framework",
+					Photos,
+				);
+				"OTHER_LDFLAGS[sdk=appletvsimulator*]" = (
+					"-framework",
+					Photos,
+				);
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"-framework",
+					Photos,
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"-framework",
+					Photos,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.libraryloupe.PhotosPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -2646,6 +2660,22 @@
 				INFOPLIST_FILE = PhotosPlus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				"OTHER_LDFLAGS[sdk=appletvos*]" = (
+					"-framework",
+					Photos,
+				);
+				"OTHER_LDFLAGS[sdk=appletvsimulator*]" = (
+					"-framework",
+					Photos,
+				);
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"-framework",
+					Photos,
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"-framework",
+					Photos,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.libraryloupe.PhotosPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
