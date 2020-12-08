@@ -1031,9 +1031,6 @@
 		A7B0898B1DD17911006C017A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A7B0898D1DD17918006C017A /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		A7B0898F1DD17928006C017A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		A7B089961DD1AA08006C017A /* UniversalFramework_Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Base.xcconfig; sourceTree = "<group>"; };
-		A7B089971DD1AA08006C017A /* UniversalFramework_Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Framework.xcconfig; sourceTree = "<group>"; };
-		A7B089981DD1AA08006C017A /* UniversalFramework_Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UniversalFramework_Test.xcconfig; sourceTree = "<group>"; };
 		A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView_PHAsset.swift; sourceTree = "<group>"; };
 		A7BFD2311DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHAsset_PhotosPlus.swift; sourceTree = "<group>"; };
 		A7BFD2461DAFD3D700BB6349 /* PhotosPlusUti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosPlusUti.swift; sourceTree = "<group>"; };
@@ -1412,9 +1409,6 @@
 		A74F970F1DA4141100969A56 = {
 			isa = PBXGroup;
 			children = (
-				A7B089961DD1AA08006C017A /* UniversalFramework_Base.xcconfig */,
-				A7B089971DD1AA08006C017A /* UniversalFramework_Framework.xcconfig */,
-				A7B089981DD1AA08006C017A /* UniversalFramework_Test.xcconfig */,
 				A74F971B1DA4141100969A56 /* PhotosPlus */,
 				A74F97261DA4141100969A56 /* PhotosPlusTests */,
 				A74F97481DA475E700969A56 /* Example1 */,
@@ -2634,7 +2628,6 @@
 		};
 		A74F972E1DA4141100969A56 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7B089971DD1AA08006C017A /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -2673,7 +2666,6 @@
 		};
 		A74F972F1DA4141100969A56 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7B089971DD1AA08006C017A /* UniversalFramework_Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -2712,7 +2704,6 @@
 		};
 		A74F97311DA4141100969A56 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7B089981DD1AA08006C017A /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = HNGG8UGR9A;
@@ -2728,7 +2719,6 @@
 		};
 		A74F97321DA4141100969A56 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7B089981DD1AA08006C017A /* UniversalFramework_Test.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = HNGG8UGR9A;
