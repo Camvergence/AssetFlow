@@ -6,6 +6,8 @@
 
 import Foundation
 import XCTest
+
+#if !os(macOS)
 import UIKit
 
 class CGSizeScreenScaledTests: XCTestCase {
@@ -25,3 +27,4 @@ class CGSizeScreenScaledTests: XCTestCase {
         XCTAssert(scaled != CGSize(width: 50.0, height: 5.0))
     }
 }
+#endif
