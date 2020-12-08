@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DFE7C55257F263800C52918 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFE7C54257F263800C52918 /* CoreServices.framework */; };
 		A714D2721DAA9F3C00F73A61 /* Cameras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D2691DAA9F3C00F73A61 /* Cameras.swift */; };
 		A714D2731DAA9F3C00F73A61 /* Canon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D26B1DAA9F3C00F73A61 /* Canon.swift */; };
 		A714D2741DAA9F3C00F73A61 /* Fujifilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714D26D1DAA9F3C00F73A61 /* Fujifilm.swift */; };
@@ -499,7 +500,6 @@
 		A7980B531DCEB5C000D04D87 /* PentaxKS2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B4C1DCEB5C000D04D87 /* PentaxKS2.swift */; };
 		A7980B561DCEB5E000D04D87 /* RicohGRII.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7980B551DCEB5E000D04D87 /* RicohGRII.swift */; };
 		A7B0898C1DD17911006C017A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898B1DD17911006C017A /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		A7B089901DD17928006C017A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B0898F1DD17928006C017A /* MobileCoreServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A7BFD22F1DAFCECB00BB6349 /* UIImageView_PHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD22E1DAFCECB00BB6349 /* UIImageView_PHAsset.swift */; };
 		A7BFD2331DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2311DAFCF4600BB6349 /* PHAsset_PhotosPlus.swift */; };
 		A7BFD2471DAFD3D700BB6349 /* PhotosPlusUti.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BFD2461DAFD3D700BB6349 /* PhotosPlusUti.swift */; };
@@ -531,6 +531,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DFE7C54257F263800C52918 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		A714D2691DAA9F3C00F73A61 /* Cameras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cameras.swift; sourceTree = "<group>"; };
 		A714D26B1DAA9F3C00F73A61 /* Canon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canon.swift; sourceTree = "<group>"; };
 		A714D26D1DAA9F3C00F73A61 /* Fujifilm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fujifilm.swift; sourceTree = "<group>"; };
@@ -1052,7 +1053,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B0898C1DD17911006C017A /* UIKit.framework in Frameworks */,
-				A7B089901DD17928006C017A /* MobileCoreServices.framework in Frameworks */,
+				4DFE7C55257F263800C52918 /* CoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1786,6 +1787,7 @@
 		A7B0898A1DD17911006C017A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DFE7C54257F263800C52918 /* CoreServices.framework */,
 				A7B0898F1DD17928006C017A /* MobileCoreServices.framework */,
 				A7B0898D1DD17918006C017A /* Photos.framework */,
 				A7B0898B1DD17911006C017A /* UIKit.framework */,
@@ -1885,7 +1887,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Infofission LLC";
 				TargetAttributes = {
 					A74F97181DA4141100969A56 = {
@@ -1910,10 +1912,9 @@
 			};
 			buildConfigurationList = A74F97131DA4141100969A56 /* Build configuration list for PBXProject "PhotosPlus" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -2514,6 +2515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -2523,6 +2525,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -2530,8 +2533,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2558,7 +2563,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -2574,6 +2579,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -2583,6 +2589,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -2590,8 +2597,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2612,7 +2621,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2657,7 +2666,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.libraryloupe.PhotosPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -2696,7 +2705,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.libraryloupe.PhotosPlus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -2711,7 +2720,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.PhotosPlusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example1.app/Example1";
 			};
@@ -2727,7 +2736,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.PhotosPlusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example1.app/Example1";
 			};
@@ -2742,7 +2751,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.librarpyloupe.PhotosPlus.Example1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -2756,7 +2765,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.librarpyloupe.PhotosPlus.Example1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

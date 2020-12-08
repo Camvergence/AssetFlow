@@ -28,12 +28,6 @@ public class IdentifierTranslator {
     ]
 }
 
-extension NSString {
-    public var translatedIdentifier: NSString {
-        return (self as String).translatedIdentifier as NSString
-    }
-}
-
 extension String {
     public var translatedIdentifier: String {
         if let mapped = IdentifierTranslator.identifierMappings[self] {
