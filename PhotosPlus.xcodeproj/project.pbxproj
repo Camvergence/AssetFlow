@@ -1072,6 +1072,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DEB1247257FBF4500B7058E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A74F971B1DA4141100969A56 /* PhotosPlus */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4DEB1248257FBF4F00B7058E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A74F97261DA4141100969A56 /* PhotosPlusTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		A714D2681DAA9F3C00F73A61 /* Cameras */ = {
 			isa = PBXGroup;
 			children = (
@@ -1409,8 +1425,8 @@
 		A74F970F1DA4141100969A56 = {
 			isa = PBXGroup;
 			children = (
-				A74F971B1DA4141100969A56 /* PhotosPlus */,
-				A74F97261DA4141100969A56 /* PhotosPlusTests */,
+				4DEB1248257FBF4F00B7058E /* Tests */,
+				4DEB1247257FBF4500B7058E /* Sources */,
 				A74F97481DA475E700969A56 /* Example1 */,
 				A74F971A1DA4141100969A56 /* Products */,
 				A7B0898A1DD17911006C017A /* Frameworks */,
@@ -2637,7 +2653,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PhotosPlus/Info.plist;
+				INFOPLIST_FILE = Sources/PhotosPlus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				"OTHER_LDFLAGS[sdk=appletvos*]" = (
@@ -2675,7 +2691,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PhotosPlus/Info.plist;
+				INFOPLIST_FILE = Sources/PhotosPlus/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				"OTHER_LDFLAGS[sdk=appletvos*]" = (
@@ -2707,7 +2723,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = HNGG8UGR9A;
-				INFOPLIST_FILE = PhotosPlusTests/Info.plist;
+				INFOPLIST_FILE = Tests/PhotosPlusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.PhotosPlusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2722,7 +2738,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = HNGG8UGR9A;
-				INFOPLIST_FILE = PhotosPlusTests/Info.plist;
+				INFOPLIST_FILE = Tests/PhotosPlusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.camvergence.PhotosPlusTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
