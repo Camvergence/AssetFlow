@@ -2,4 +2,4 @@ os:
   - osx
 language: objective-c
 osx_image: xcode12.2
-script: xcodebuild test -enableCodeCoverage YES -project PhotosPlus.xcodeproj -scheme PhotosPlus  -destination 'platform=iOS Simulator,name=iPhone 12,OS=14.2'
+script: swift test
